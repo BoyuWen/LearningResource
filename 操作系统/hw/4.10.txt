@@ -1,0 +1,41 @@
+（1）是安全状态，安全序列：{P4,P2,P3,P5,P1}
+
+Need:
+P1: 3,4,7
+P2: 1,3,4
+P3: 0,0,6
+P4: 2,2,1
+P5: 1,1,0
+
+Available:
+2,3,3
+4,3,7
+8,3,9
+12,3,14
+15,4,18
+17,5,20
+
+(2)不能
+Request2(0,3,4)<=Need2(3,4,7)  
+Request2(0,3,4)>Available(2,3,3)
+P2等待
+
+（3）能
+Request4(2,0,1)<=Need4(3,1,4)  
+Request4(2,0,1)<=Available(2,3,3)
+
+Available=Available(2,3,3) - Request4(2,0,1) = Available(0,3,2)
+Allocation4=Allocation4(2,0,4) + Request4(2,0,1) = Allocation4(4,0,5)
+Need4=Need4(2,2,1) - Request4(2,0,1) = Need4(0,2,0)
+
+由安全性检查得知，能找到一个安全序列{P4,P2,P3,P5,P1}，因此，系统是安全的，可以立即将P4所申请的资源分配给它。
+
+(4)不能
+Request1(0,2,0)<=Need1(3,4,7)
+Request1(0,2,0)<=Available1(0,3,2)
+
+Available=Available(0,3,2) - Request1(0,2,0) = Available(0,1,2)
+Allocation1=Allocation1(2,1,2) + Request1(0,2,0) = Allocation1(2,3,2)
+Need1=Need1(3,4,7) - Request1(0,2,0) = Need1(3,2,7)
+由安全性检查得知，不能找到一个安全序列，不进行资源分配
+
