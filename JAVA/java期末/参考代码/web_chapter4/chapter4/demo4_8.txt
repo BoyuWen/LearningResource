@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>表单-单选按钮</title> 
+    </head>
+	<body>
+		<form> 
+            请选择自己的性别：<br/>
+   		    <input type="radio" name="sex" value="Male" checked="checked" /> 
+        	男
+       		<br />
+       		<input type="radio" name="sex" value="Female" checked="checked"/> 
+        	女 
+   		</form> 
+	</body>
+</html>

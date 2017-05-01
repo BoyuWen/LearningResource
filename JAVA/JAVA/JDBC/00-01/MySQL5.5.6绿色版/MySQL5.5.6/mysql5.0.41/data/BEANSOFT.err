@@ -1,0 +1,34 @@
+071001 17:41:36 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+071001 18:15:05 [Note] bin\mysqld-nt.exe: Normal shutdown
+
+071001 18:15:05 [Note] bin\mysqld-nt.exe: Shutdown complete
+
+Error in my_thread_global_end(): 1 threads didn't exit
+071002  8:09:55 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+071002  9:09:51 [Note] bin\mysqld-nt.exe: Normal shutdown
+
+071002  9:09:51 [Note] bin\mysqld-nt.exe: Shutdown complete
+
+Error in my_thread_global_end(): 1 threads didn't exit
+071002  9:20:21 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+071002  9:34:14 [Note] bin\mysqld-nt.exe: Normal shutdown
+
+071002  9:34:14 [Note] bin\mysqld-nt.exe: Shutdown complete
+
+Error in my_thread_global_end(): 1 threads didn't exit
+071003 11:07:23 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+071005 18:43:34 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+071005 18:48:34 [Note] bin\mysqld-nt.exe: Normal shutdown
+
+071005 18:48:34 [Note] bin\mysqld-nt.exe: Shutdown complete
+
+Error in my_thread_global_end(): 1 threads didn't exit
+071006 10:55:39 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+071006 12:37:58 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)

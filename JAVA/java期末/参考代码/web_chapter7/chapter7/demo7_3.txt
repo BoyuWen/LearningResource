@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <title>font</title>
+    <meta charset="utf-8"/>
+    <link href="css/mycss.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <ul>
+    	<li><a href="#">第一条国际新闻</a></li>
+    	<li><a href="#">第二条国际新闻</a></li>
+    	<li><a href="#">第三条国际新闻</a></li>
+    	<li><a href="#">第四条国际新闻</a></li>
+    	<li><a href="#">第五条国际新闻</a></li>
+    </ul>
+</body>
+</html>

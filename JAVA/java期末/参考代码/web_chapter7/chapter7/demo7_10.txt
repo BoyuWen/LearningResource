@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>继承</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		body{
+			font-family:'微软雅黑';
+		}
+		p{
+			font-family:'黑体';
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		苹果评出iPhone十大最好应用
+	</h1>
+	<p>
+		现在苹果应用店中有100多万种<a href="#">iPhone应用</a>，要想从中找出哪些值得你使用是个苦差事。但是苹果可以帮忙，该公司最近推出10大最好应用名单，从强大的照片应用到确保帐号安全的应用等。
+	</p>
+	<p>
+		01.VSCO：职业Instagram用户利用其令照片看起来更棒
+	</p>
+	<p>
+		02.BuzzFeed Video：将BuzzFeed所有视频整合起来
+	</p>
+	<p>
+		03.1Password：帮助确保账号安全
+	</p>
+</body>
+</html>

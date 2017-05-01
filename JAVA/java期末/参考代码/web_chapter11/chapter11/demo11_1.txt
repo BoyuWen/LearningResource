@@ -1,0 +1,46 @@
+<html>
+	<head>  
+ 		<title>网页布局</title>
+  		<style type="text/css">
+		    *{
+			margin:0;
+			padding:0;
+			}
+			.mybody{
+			width:1000px;
+			margin:auto;	
+			}
+			.header{
+			width:1000px;	
+			height:290px;
+			background-color:#ff0;
+			}
+			.content{
+			height:400px;
+			background-color:#f04
+			}
+			.footer{
+			height:100px;
+			background-color:#188
+			}
+		 </style>
+ 	</head>
+ 	<body>
+		<div class="mybody">
+			<div class="header">
+				<div class="nav"></div>
+				<div class="logo"></div>
+				<div class="banner"></div>
+			</div>
+			<div class="content">
+				<div class="news">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+				<div class="menu"></div>
+				<div class="link"></div>
+			</div>
+			<div class="footer"></div>
+		</div>
+ 	</body>
+</html>

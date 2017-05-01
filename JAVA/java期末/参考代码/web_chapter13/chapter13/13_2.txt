@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">  
+  <title>Document</title>
+  <style>
+  div{
+    width:200px;
+	height:200px;
+  }
+  .hacktest{     
+    background-color:blue;      /* 都识别 */  
+    background-color:red\9;     /*all ie*/  
+    background-color:yellow\0;  /*for IE8/IE9/10 最新版opera也认识*/  
+    +background-color:pink;     /*for ie6/7*/  
+    _background-color:orange;   /*for ie6*/  
+  } 
+  
+  </style>
+ </head>
+ <body>
+  <div class="hacktest"></div>
+ </body>
+</html>

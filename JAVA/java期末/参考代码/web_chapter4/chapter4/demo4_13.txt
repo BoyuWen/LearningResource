@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+      <title>表单-下拉列表</title> 
+    </head>
+	<body>
+		<form> 
+     		<select name="class">
+        		<option value="first">软件一班</option>
+        		<option value="two">  软件二班</option>
+        		<option value="three" selected="selected">软件三班</option>
+        		<option value="four"> 软件四班</option>
+  			</select>
+   		</form> 
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>demo9_9</title>
+		<style type="text/css">
+			body{
+				background: #00ff00 url(image/bg.jpg) no-repeat center;
+				height:500px;
+			}
+		</style>
+	</head>
+	<body>
+		
+	</body>
+</html>

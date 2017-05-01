@@ -1,0 +1,20 @@
+1.mysqladmin命令（回目录）
+格式如下（其中，USER为用户名，PASSWORD为新密码）： 
+mysqladmin -u USER -p password PASSWORD
+该命令之后会提示输入原密码，输入正确后即可修改。
+例如，设置root用户的密码为123456，则 
+mysqladmin -u root -p password 123456
+
+2.UPDATE user 语句（回目录）
+这种方式必须是先用root帐户登入mysql，然后执行： 
+UPDATE user SET password=PASSWORD('123456') WHERE user='root';
+FLUSH PRIVILEGES;
+
+3.SET PASSWORD 语句（回目录）
+这种方式也需要先用root命令登入mysql，然后执行： 
+SET PASSWORD FOR root=PASSWORD('123456');
+
+4.root密码丢失的情况（回目录）
+使用 MySQL 自带的一个工具"MySQL GUI Tools"，我一直用的是5.0版本的。 在安装目录中运行一个程序 MySQLSystemTrayMonitor.exe，运行完后在系统托盘会出现图标。如果MySQL服务尚未安装，则不会出现，可先通过Action>Manage MySQL Instances 先配置和安装服务。如果已经安装服务，鼠标右键点击后，会出现"Configure Instance"的菜单。点击后出现如下MySQL Administrator窗口： 
+假如原来的服务配置都正常的情况下，选中左侧列表中的“启动变量”，并在相应的右侧标签中选择“安全”，勾选“禁用grant表”，然后“应用更改”。 
+并回到左侧的“服务器控制”，和右侧相应的“开始/停止服务”标签，点击启动服务。此时，连接mysql已经不需要用户名和密码了，你可以修改root密码。

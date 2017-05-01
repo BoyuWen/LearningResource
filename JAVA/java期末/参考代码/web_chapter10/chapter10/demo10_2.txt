@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo10-2</title>
+		<style>
+		div {
+		border:1px solid black;
+		width:960px;
+		}
+		#wrap{
+		height:500px;
+		background: #CCC;
+		}
+		#nav{
+		height:100px;
+		background: #00F;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div id="wrap">
+			<div id="nav">
+				Some contents here...
+			</div>
+			And some other contents...
+		</div>
+	</body>
+</html>

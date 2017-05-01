@@ -1,0 +1,3 @@
+@echo off
+REM Mysql shutdown ...
+bin\mysqladmin --user=root --password= shutdown

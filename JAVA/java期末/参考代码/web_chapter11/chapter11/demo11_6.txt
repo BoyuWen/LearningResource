@@ -1,0 +1,34 @@
+<html>
+ <head>  
+  <title>网页标题</title>
+  <meta charset="utf-8"/>
+  <style type="text/css">
+	.news{	
+	background-color:#f88;	
+	width:700px;
+	border:3px solid red;
+	height:200px;	
+	}
+	.nf{
+	float:left;
+	margin:10px;
+	width:300px;
+	height:300px;
+	background-color:#6f1;
+	}
+	.footer{
+	width:700px;
+	height:50px;
+	background-color:#a062de;
+	clear:both;
+	}
+  </style>
+ </head>
+ <body>
+   <div class="news">
+		<div class="nf">左边的部分</div>
+		<div class="nf">右边的部分</div>
+   </div>
+   <div class="footer">底部</div>
+ </body>
+</html>

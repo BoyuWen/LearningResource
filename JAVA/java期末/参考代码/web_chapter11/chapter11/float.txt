@@ -1,0 +1,54 @@
+<html>
+ <head>  
+  <title>float</title>
+  <meta charset="utf-8" />
+  <style type="text/css">
+	#mybody{
+		width: 900px;
+		height: 768px;
+		margin:0px auto;
+		border:2px red solid;
+	}
+	h1,h4{
+		text-align: center;
+	}
+	p{
+		font-size: 20px;
+		text-indent: 2em;
+		width: 800px
+	}
+	#p1{
+		background-color: #FAEBD7;
+	}
+	#p2{
+		background-color: #00FFFF;
+		float:right;
+	}
+	#p3{
+		background-color: #ADFF2F;
+	}
+	#p4{
+		background-color: #20B2AA;
+	}
+  </style>
+ </head>
+ <body>
+ 	<div id="mybody">
+ 	<h1>在美国看病，搜索引擎能起多大作用？</h1>
+ 	<h4>2016年05月03日20:18</h4>
+	<p id="p1">
+		p1:青年人魏则西的不幸病亡，最近几日牵动了许多人的心，搜索引擎在这一事件中扮演的角色引发巨大争议。在美国，谷歌等搜索引擎也会扮演医疗信息推广者的角色，这些信息会否影响美国民众对就医的选择？
+	</p>
+	<p id="p2">
+		<span>p2:生了病去哪家医院看病？</span>在美国，除了病友口口相传和亲朋好友的推荐介绍，大多数人都会求助有公信力的医院排名，而颇具权威度的传统媒体排名，是不少美国民众看病找医院的重要参考。
+	</p>
+	<p id="p3">
+		p3:作为有80多年历史的全国性媒体和出版公司，US news每年都会公布各类与民生问题相关的排名，比如工作、教育、医疗、度假等，其中最佳医疗机构排名覆盖美国2千多家医院，还包括各钟分医疗科目的分类排名。
+	</p>
+	<p id="p4">
+		<img src="images/img1.png" alt="US news" width="200px" height="150px" />
+		<img src="images/img2.png" alt="CPC报价" width="200px" height="150px" />
+	</p>
+	</div>
+ </body>
+</html>

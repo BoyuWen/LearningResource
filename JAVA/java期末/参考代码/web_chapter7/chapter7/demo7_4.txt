@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>标签选择器</title>
+        <meta charset="utf-8"/>
+        <style>
+            p{
+                color: orange;
+            }
+            h2{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>新一代苹果产品</h2>
+        <h2>新一代苹果产品</h2>
+        <p> 据国外媒体报道，苹果有望于9月发布新一代iPhone。</p>
+        <p> 有消息人士在智能移动科技博客iMore上透露，苹果计划在美国时间9月12日的发布会上推出新一代iPhone。</p>
+        <p>而新一代iPhone将在发布9天之后，也就是9月21日(周五)正式发售，而iOS6或将于9月19日提供正式下载。</p>
+        <p>新一代iPhone将采用4英寸、16:9平板版本的显示屏。</p>
+    </body>
+</html>

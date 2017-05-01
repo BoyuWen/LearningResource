@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>文本修饰</title>
+        <style>
+            h1{
+                text-decoration: line-through;
+            }
+            .none{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>我院举行“云计算时代的行业应用创新”专题讲座</h1>
+
+        <p>为了丰富软件学院实训教学的形式，帮助广大在校生们拓展与优秀行业专家和技术资源接触的机会，2014年12月26日，河北师范大学软件学院就业部门邀请了<a href="#" class="none">德国电信</a>中国大陆公司高级工程师白晓磊走进学院，为同学们开展了一场以“云计算时代的行业应用创新”为主题的讲座，讲座吸引了近百名同学到场聆听。</p>
+
+        
+        <ul>
+            <li>上一篇：<a href="#" class="none">软件学院2012级学生实习双选会圆满落幕</a></li>
+            <li>下一篇：<a href="#" >软件学院男子足球队获得2015年全校足球甲级联赛亚军</li></a>
+        </ul>
+    
+    </body>
+</html>

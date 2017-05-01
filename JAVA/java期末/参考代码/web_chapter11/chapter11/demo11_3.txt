@@ -1,0 +1,23 @@
+<html >
+<head>
+	<title>无标题文档</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+	img{
+	float:left; 
+	margin-right:10px
+	}
+	div{
+	width:600px; 
+	line-height:22px; 
+	font-size: 12px;
+	}
+	</style>
+</head>
+
+<body>
+	<div>
+	  南瓜煲鸡的做法其实及其简单！成本低廉,操作也并不复杂,而口感鲜美,也不失为节日菜谱！尤其是换季了,家中的男女老少来份南瓜煲鸡,营养又易美味;本人特喜欢南瓜煲鸡的做法，感觉这是最好吃的家常菜了，很奇怪为什么会有那么多的人不喜欢吃南瓜煲鸡呢？<img src="images/cdms_img1.jpg" width="197" height="169" />后来才明白原来他们是因为做南瓜煲鸡的时候方法没有掌握好！南瓜煲鸡有很多的做法，正确的做法才能做出来好吃的南瓜煲鸡！南瓜煲鸡的最好做法是能做到不油不腻，这样的南瓜煲鸡吃起来才会香，而且不用担心会长胖！不信做做看！
+	</div>
+</body>
+</html>

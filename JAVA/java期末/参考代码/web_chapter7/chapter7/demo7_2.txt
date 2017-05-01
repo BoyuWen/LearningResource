@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>  
+	<title>font</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<ul>
+		<li><a href="#"><font color="red" size="4" face="微软雅黑">第一条国际新闻</font></a></li>
+		<li><a href="#"><font color="red" size="4" face="微软雅黑">第二条国际新闻</font></a></li>
+		<li><a href="#"><font color="red" size="4" face="微软雅黑">第三条国际新闻</font></a></li>
+		<li><a href="#"><font color="red" size="4" face="微软雅黑">第四条国际新闻</font></a></li>
+		<li><a href="#"><font color="red" size="4" face="微软雅黑">第五条国际新闻</font></a></li>
+	</ul>
+</body>
+</html>

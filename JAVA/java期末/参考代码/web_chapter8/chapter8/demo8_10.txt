@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>超链接四种状态</title>
+        <style>
+            a:link {
+                text-decoration:none;
+                color:orange;
+            }       
+            a:visited {
+                color:#999999;
+            }  
+            a:hover {
+                text-decoration: underline;
+            }
+            a:active {
+                color:#FF0000;
+            }               
+        </style>
+    </head>
+    <body>
+        <h1>新闻中心</h1>
+         <ul>
+           <li>
+             <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1941">神州泰岳软件股份有限公司副总裁王蔚一行到我校考察</a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1940">寒假放假通知 </a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1939">拓展“春雨行动”  软件学院为特困学生捐赠回家车票</a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1938">软件学院与韩国又松、东洋两所大学开展交换生学习项目</a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1936">软件学院举办优秀实训成果展示汇报会</a>
+            </li>
+             <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1935">软件学院举办实习经验交流会</a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1934">我院举行“云计算时代的行业应用创新”专题讲座</a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1933">志愿者协助交警  倡文明绿色出行</a>
+            </li>
+            <li>
+                <a href="http://software.hebtu.edu.cn/index.php?m=content&c=index&a=show&catid=25&id=1932">我院与国际合作处联合举办软件学院国际英语讲座</a>
+            </li>
+        </ul>    
+    </body>
+</html>

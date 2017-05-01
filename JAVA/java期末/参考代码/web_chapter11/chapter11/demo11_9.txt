@@ -1,0 +1,37 @@
+<html>
+ <head>  
+  <title>网页标题</title>
+  <style type="text/css">
+   .mybody{
+   width:500px;
+   height:450px;
+   margin:50px;
+   background-color:#ff0;
+   }
+   .p1{
+   width:250px;
+   height:250px;
+   background-color:#f20;
+   position:absolute;
+   left:10px;
+   top:10px;
+   z-index:10;
+   }
+   .p2{
+   width:200px;
+   height:200px;
+   background-color:#2f0;
+   position:absolute;
+   left:10px;
+   top:10px;
+   z-index:9;
+   }
+  </style>
+ </head>
+ <body>
+  <div class="mybody">
+	<div class="p1"></div>
+	<div class="p2"></div>
+  </div>
+ </body>
+</html>

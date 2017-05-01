@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>石家庄经济学院教务处</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script src="js/nav.js"></script>
+</head>
+
+<body>
+<div class="mybody">
+	<div id="nav">
+		<ul>
+			<li class="bc"><a href="#">首页</a></li>          
+			<li><a href="">岗位设置</a>
+            	<ul>
+ 					<li><a href="#">专业建设</a></li>
+ 					<li><a href="#">培养方案</a></li>
+ 					<li><a href="#">课程建设</a></li>
+ 					<li><a href="#">实践教学</a></li>				
+ 				</ul>
+ 			</li>
+            <li><a href="">教学建设</a>
+            	<ul>
+ 					<li><a href="#">专业建设</a></li>
+ 					<li><a href="#">培养方案</a></li>
+ 					<li><a href="#">课程建设</a></li>
+ 					<li><a href="#">实践教学</a></li>
+               	 <li><a href="#">质量工程</a></li>
+               	 <li><a href="#">教研活动</a></li>
+ 				</ul>
+ 			</li>
+            <li><a href="">教学运行</a>
+            	<ul>
+ 					<li><a href="#">排课选课</a></li>
+ 					<li><a href="#">考试管理</a></li>
+ 					<li><a href="#">成绩管理</a></li>
+ 					<li><a href="#">学历学位</a></li>
+					<li><a href="#">学籍异动</a></li>
+					<li><a href="#">推荐免试研究生</a></li>
+ 				</ul>
+ 			</li>
+            <li><a href="">教学保障</a>
+           		<ul>
+ 					<li><a href="#">教务管理系统</a></li>
+ 					<li><a href="#">教室管理</a></li>
+ 					<li><a href="#">多媒体管理</a></li>
+ 					<li><a href="#">教材管理</a></li>				
+ 				</ul>
+ 			</li>
+ 			<li><a href="">教学评估</a>
+           		<ul>
+ 					<li><a href="#">组织机构</a></li>
+ 					<li><a href="#">评估文件</a></li>
+ 					<li><a href="#">评估动态</a></li>
+ 					<li><a href="#">工作安排</a></li>
+ 					<li><a href="#">评估简报</a></li>
+ 					<li><a href="#">评估知识</a></li>
+ 					<li><a href="#">评估经验</a></li>				
+ 				</ul>
+ 			</li>
+            <li><a href="">规章制度</a>
+           		<ul>
+ 					<li><a href="#">省部级</a></li>
+ 					<li><a href="#">校级</a></li> 				
+ 				</ul>
+ 			</li>
+ 		</ul>
+ 	</div>
+ 	<div class="logo">
+    	<input name="" type="button" class="ssb" value=" "/><input name="" type="text" class="ss"/>
+    </div>
+    <div class="banner">
+    	<img src="images/banner.jpg" width="1000" height="350" /> 
+    </div>
+    <div class="news">
+    	<h1><a href="#">更多>></a></h1>
+        
+      <div class="newsl">
+       	  <div class="date"><span class="day">06</span><span class="year">2015.12</span></div>
+            <div class="nfont">
+            	<h2><a href="#">关于2014-2015 学年第开始一学雅通识课程开课的新闻</a></h2>
+                <p>专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。</p>
+            </div>
+        </div>
+        
+      <div class="newsl marginl" >
+       	  <div class="date"><span class="day">06</span><span class="year">2015.12</span></div>
+            <div class="nfont">
+            	<h2><a href="#">关于2014-2015 学年第开始一学雅通识课程开课的新闻</a></h2>
+                <p>专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。</p>
+            </div>
+        </div>
+        
+      <div class="newsl">
+       	  <div class="date"><span class="day">06</span><span class="year">2015.12</span></div>
+            <div class="nfont">
+            	<h2><a href="#">关于2014-2015 学年第开始一学雅通识课程开课的新闻</a></h2>
+                <p>专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。</p>
+            </div>
+        </div>
+        
+      <div class="newsl marginl" >
+       	  <div class="date"><span class="day">06</span><span class="year">2015.12</span></div>
+            <div class="nfont">
+            	<h2><a href="#">关于2014-2015 学年第开始一学雅通识课程开课的新闻</a></h2>
+                <p>专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。</p>
+            </div>
+        </div>
+        
+  </div>
+  <div class="notice">
+    	<h1><a href="#">更多>></a></h1>
+        <ul>
+        	<h2><a href="#">2015年寒假公共教室使用安排公告</a></h2>
+            专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。
+        </ul>
+        <ul>
+        	<h2><a href="#">2015年寒假公共教室使用安排公告</a></h2>
+            专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。
+        </ul>
+        <ul>
+        	<h2><a href="#">2015年寒假公共教室使用安排公告</a></h2>
+            专家解读、权威评论、优秀事迹、大学责任及我校工作动态专家解说。
+        </ul>
+  </div>
+  <div class="fw">
+  	<div class="fws fml">
+   	 <h3><img src="images/xsfw.gif" width="170" height="43" /></h3>
+    	<ul>
+        	<li><a href="#">学生网上综合系统</a></li>
+            <li><a href="#">网上教学平台</a></li>
+            <li><a href="#">空闲教室查询</a></li>
+            <li><a href="#">网上教评</a></li>
+        </ul>
+    </div>
+    
+    <div class="fws">
+   	 <h3><img src="images/jsfw.gif" width="170" height="43" /></h3>
+    	<ul>
+        	<li><a href="#">网上教学平台</a></li>
+            <li><a href="#">教师网上综合系统</a></li>
+            <li><a href="#">学院网上综合系统</a></li>
+            <li><a href="#">教评结果查询</a></li>
+            <li><a href="#">教师授课秩序登记</a></li>
+        </ul>
+    </div>
+    <div class="fws">
+   	 <h3><img src="images/ggfw.gif" width="170" height="43" /></h3>
+    	<ul class="hbr">
+        	<li><a href="#">最新下载</a></li>
+            <li><a href="#">管理登录</a></li>
+            <li><a href="#">成绩查询</a></li>
+            <li><a href="#">办事指南</a></li>
+            <li><a href="#">大练兵</a></li>
+            <li><a href="#">办公自动化登录</a></li>
+        </ul>
+    </div>
+    <div class="fws">
+   	 <h3><img src="images/zlgc.gif" width="170" height="43" /></h3>
+    	<ul class="hbr">
+        	<li><a href="#">精品课程</a></li>    
+            <li><a href="#">创新高地</a></li>
+            <li><a href="#">教学团队</a></li>
+            <li><a href="#">教学名师</a></li>
+            <li><a href="#">实验教学示范中心</a></li>
+        </ul>
+    </div>
+  </div>
+  <div class="link">
+  	<h1><img src="images/cylj.gif" width="90" height="30" /></h1>
+    <div class="pic">
+    	<a href="#"><img src="images/ad1.gif" width="230" height="50" /></a>
+        <a href="#"><img src="images/ad2.gif" width="230" height="50" /></a>
+    </div>
+    <div class="list">
+    	<ul>
+        	<li><a href="#">xxx教学平台1</a></li>
+            <li><a href="#">xxx教学平台1</a></li>
+            <li><a href="#">xxx教学平台1</a></li>
+            <li><a href="#">xxx教学平台1</a></li>
+            <li><a href="#">xxx教学平台1</a></li>
+            <li><a href="#">xxx教学平台1</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+<div class="bottom">
+	<div class="bcontent">
+    	<ul>
+        	<li><a href="#">加入收藏</a>| </li>    
+            <li><a href="#">友情链接</a>|</li>     
+            <li><a href="#">联系方式</a>|</li>   
+            <li><a href="#">常用链接</a>|</li>    
+            <li><a href="#">管理入口</a></li>
+        </ul>
+       <p> 版权所有：石家庄经济学院教务处</p>
+       <p>Copyright @ 2008-2013 http://jwc.xxxx.edu.cn All Rights Reserved 网站备案：冀ICP备0600665</p>
+    </div>
+</div>
+</body>
+</html>

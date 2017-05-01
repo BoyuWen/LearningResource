@@ -1,0 +1,254 @@
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument
+110330 22:35:26	      1 Connect     root@localhost on 
+		      1 Shutdown   
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument
+110330 22:35:50	      1 Connect     root@localhost on 
+		      1 Statistics 
+		      1 Query       SELECT VERSION()
+		      1 Query       SHOW VARIABLES
+		      1 Query       SHOW STATUS
+		      1 Query       show databases
+		      1 Init DB     information_schema
+		      1 Query       show tables
+		      1 Init DB     mysql
+		      1 Query       show tables
+		      1 Init DB     test
+		      1 Query       show tables
+110330 22:35:53	      1 Init DB     mysql
+		      1 Query       show tables
+		      1 Query       SELECT count(*) FROM columns_priv
+		      1 Query       SELECT count(*) FROM db
+		      1 Query       SELECT count(*) FROM func
+		      1 Query       SELECT count(*) FROM help_category
+		      1 Query       SELECT count(*) FROM help_keyword
+		      1 Query       SELECT count(*) FROM help_relation
+		      1 Query       SELECT count(*) FROM help_topic
+		      1 Query       SELECT count(*) FROM host
+		      1 Query       SELECT count(*) FROM proc
+		      1 Query       SELECT count(*) FROM procs_priv
+		      1 Query       SELECT count(*) FROM tables_priv
+		      1 Query       SELECT count(*) FROM time_zone
+		      1 Query       SELECT count(*) FROM time_zone_leap_second
+		      1 Query       SELECT count(*) FROM time_zone_name
+		      1 Query       SELECT count(*) FROM time_zone_transition
+		      1 Query       SELECT count(*) FROM time_zone_transition_type
+		      1 Query       SELECT count(*) FROM user
+110330 22:35:56	      1 Init DB     test
+		      1 Query       show tables
+		      1 Query       SELECT count(*) FROM bbsuser
+110330 22:35:57	      1 Query       SELECT count(*) FROM echo_message
+		      1 Query       SELECT count(*) FROM myuser
+		      1 Query       SELECT count(*) FROM myuser2
+		      1 Query       SELECT count(*) FROM student
+110330 22:35:58	      1 Init DB     information_schema
+		      1 Query       show tables
+		      1 Query       SELECT count(*) FROM CHARACTER_SETS
+		      1 Query       SELECT count(*) FROM COLLATIONS
+		      1 Query       SELECT count(*) FROM COLLATION_CHARACTER_SET_APPLICABILITY
+		      1 Query       SELECT count(*) FROM COLUMNS
+		      1 Query       SELECT count(*) FROM COLUMN_PRIVILEGES
+		      1 Query       SELECT count(*) FROM KEY_COLUMN_USAGE
+		      1 Query       SELECT count(*) FROM PROFILING
+		      1 Query       SELECT count(*) FROM ROUTINES
+		      1 Query       SELECT count(*) FROM SCHEMATA
+		      1 Query       SELECT count(*) FROM SCHEMA_PRIVILEGES
+		      1 Query       SELECT count(*) FROM STATISTICS
+		      1 Query       SELECT count(*) FROM TABLES
+110330 22:35:59	      1 Query       SELECT count(*) FROM TABLE_CONSTRAINTS
+		      1 Query       SELECT count(*) FROM TABLE_PRIVILEGES
+		      1 Query       SELECT count(*) FROM TRIGGERS
+		      1 Query       SELECT count(*) FROM USER_PRIVILEGES
+		      1 Query       SELECT count(*) FROM VIEWS
+110330 22:37:27	      2 Connect     root@localhost on 
+		      2 Shutdown   
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument
+110330 22:38:46	      1 Connect     root@localhost on 
+		      1 Statistics 
+		      1 Query       SELECT VERSION()
+		      1 Query       SHOW VARIABLES
+		      1 Query       SHOW STATUS
+110330 22:38:47	      1 Query       show databases
+		      1 Init DB     information_schema
+		      1 Query       show tables
+		      1 Init DB     mysql
+		      1 Query       show tables
+		      1 Init DB     test
+		      1 Query       show tables
+110330 22:38:50	      2 Connect     root@localhost on information_schema
+110330 22:39:10	      1 Init DB     test
+		      1 Query       show tables
+110330 22:39:11	      1 Query       SELECT count(*) FROM bbsuser
+		      1 Query       SELECT count(*) FROM echo_message
+		      1 Query       SELECT count(*) FROM myuser
+		      1 Query       SELECT count(*) FROM myuser2
+		      1 Query       SELECT count(*) FROM student
+110330 22:39:23	      1 Query       FLUSH PRIVILEGES
+110330 22:39:30	      3 Connect     root@localhost on test
+		      3 Query       SHOW COLUMNS FROM myuser
+		      3 Query       SHOW INDEX FROM myuser
+		      3 Query       select * from myuser
+110330 22:40:22	      1 Quit       
+		      3 Quit       
+110330 22:40:26	      4 Connect     root@localhost on 
+		      4 Shutdown   
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument
+110825 10:05:33	      1 Connect     root@localhost on 
+		      1 Statistics 
+		      1 Query       SELECT VERSION()
+		      1 Query       SHOW VARIABLES
+		      1 Query       SHOW STATUS
+		      1 Query       show databases
+		      1 Init DB     information_schema
+		      1 Query       show tables
+		      1 Init DB     mysql
+		      1 Query       show tables
+		      1 Init DB     test
+		      1 Query       show tables
+110825 10:06:03	      2 Connect     root@localhost on test
+		      2 Query       /* SQLyog Ultimate v8.82 MySQL - 5.6.2-m5 NULL - webframe ********************************************************************* */ /*!40101 SET NAMES utf8 */
+		      2 Query       /*!40101 SET SQL_MODE=''*/
+		      2 Query       /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */
+		      2 Query       /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */
+		      2 Query       /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */
+		      2 Query       /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */
+		      2 Query       CREATE DATABASE /*!32312 IF NOT EXISTS*/`webframe` /*!40100 DEFAULT CHARACTER SET utf8 */
+		      2 Query       USE `webframe`
+		      2 Query       /*Table structure for table `st_config` */ DROP TABLE IF EXISTS `st_config`
+		      2 Query       CREATE TABLE `st_config` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `configKey` varchar(255) DEFAULT NULL, `configValue` varchar(255) DEFAULT NULL, `descn` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_config` */ insert into `st_config`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`configKey`,`configValue`,`descn`) values (1,NULL,NULL,NULL,NULL,'com.starflow.core.key.cache.num','10','主键缓存数目')
+		      2 Query       /*Table structure for table `st_dictionary` */ DROP TABLE IF EXISTS `st_dictionary`
+		      2 Query       CREATE TABLE `st_dictionary` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `code` varchar(255) DEFAULT NULL, `enabled` char(1) NOT NULL, `name` varchar(255) DEFAULT NULL, `ORDER_INDEX` bigint(20) DEFAULT NULL, `DICT_TYPE_ID` bigint(20) NOT NULL, PRIMARY KEY (`RES_ID`), KEY `FK533311343A8CB7FB` (`DICT_TYPE_ID`), CONSTRAINT `FK533311343A8CB7FB` FOREIGN KEY (`DICT_TYPE_ID`) REFERENCES `st_dictionary_type` (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+110825 10:06:04	      2 Query       /*Data for the table `st_dictionary` */ insert into `st_dictionary`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`code`,`enabled`,`name`,`ORDER_INDEX`,`DICT_TYPE_ID`) values (1,NULL,'admin',NULL,NULL,'M','Y','�?,1,10001),(2,NULL,'admin',NULL,'admin','F','Y','�?,2,10001),(3,NULL,'admin',NULL,NULL,'N','Y','未知',3,10001),(4,NULL,'admin',NULL,NULL,'Y','Y','叶子节点',1,10002),(5,NULL,'admin',NULL,NULL,'N','Y','非叶子节�?,2,10002),(6,NULL,'admin',NULL,NULL,'Y','Y','有效',1,10003),(7,NULL,'admin',NULL,NULL,'N','Y','无效',2,10003),(8,NULL,'admin',NULL,NULL,'menu','Y','菜单',1,10004),(9,NULL,'admin',NULL,NULL,'uri','Y','URI',2,10004),(10,NULL,'admin',NULL,NULL,'method','Y','方法',3,10004),(11,NULL,NULL,NULL,NULL,'flow','Y','主流�?,1,10006),(12,NULL,NULL,NULL,NULL,'subflow','Y','子流�?,2,10006)
+		      2 Query       /*Table structure for table `st_dictionary_type` */ DROP TABLE IF EXISTS `st_dictionary_type`
+		      2 Query       CREATE TABLE `st_dictionary_type` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `code` varchar(255) DEFAULT NULL, `memo` varchar(255) DEFAULT NULL, `name` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_dictionary_type` */ insert into `st_dictionary_type`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`code`,`memo`,`name`) values (10001,NULL,'admin',NULL,NULL,'CORE.GENDER','性别：男、女、未�?,'性别'),(10002,NULL,NULL,NULL,NULL,'CORE.NODE.TYPE','节点类型：叶子节点和非叶子节�?,'节点类型'),(10003,NULL,NULL,NULL,NULL,'CORE.ENABLED','状态有效性：有效，无�?,'状态有效�?),(10004,NULL,NULL,NULL,NULL,'CORE.RESOURCE.TYPE','资源类型：URI、方法、菜�?,'资源类型'),(10006,NULL,NULL,NULL,NULL,'CORE.FLOW.TYPE','流程类型','流程类型')
+		      2 Query       /*Table structure for table `st_menu` */ DROP TABLE IF EXISTS `st_menu`
+		      2 Query       CREATE TABLE `st_menu` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `descn` varchar(255) DEFAULT NULL, `iconCls` varchar(30) DEFAULT NULL, `isLeaf` char(1) DEFAULT NULL, `level_` int(11) DEFAULT NULL, `menuSeq` varchar(255) DEFAULT NULL, `name` varchar(255) DEFAULT NULL, `parentId` bigint(20) DEFAULT NULL, `theSort` int(11) NOT NULL, `RESOURCE_ID` bigint(20) DEFAULT NULL, PRIMARY KEY (`RES_ID`), KEY `FKBB5B107D3B1AA04E` (`RESOURCE_ID`), CONSTRAINT `FKBB5B107D3B1AA04E` FOREIGN KEY (`RESOURCE_ID`) REFERENCES `st_resource` (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_menu` */ insert into `st_menu`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`descn`,`iconCls`,`isLeaf`,`level_`,`menuSeq`,`name`,`parentId`,`theSort`,`RESOURCE_ID`) values (1,NULL,NULL,NULL,NULL,'21',NULL,'N',1,NULL,'系统管理',0,2,12),(2,NULL,NULL,NULL,'admin','权限管理',NULL,'Y',2,NULL,'权限管理',1,4,5),(3,NULL,NULL,NULL,'admin',NULL,NULL,'Y',2,NULL,'菜单管理',1,6,6),(4,NULL,NULL,NULL,'admin',NULL,NULL,'Y',2,NULL,'角色管理',1,3,7),(5,NULL,'admin',NULL,NULL,'机构管理',NULL,'Y',2,NULL,'机构管理',1,1,8),(6,NULL,'admin',NULL,NULL,'操作日志监控',NULL,'Y',2,NULL,'操作日志监控',50,2,9),(7,NULL,'admin',NULL,NULL,'用户管理',NULL,'Y',2,NULL,'用户管理',1,2,10),(8,NULL,'admin',NULL,NULL,'业务字典',NULL,'Y',2,NULL,'业务字典',1,7,11),(9,NULL,'admin',NULL,NULL,'系统参数',NULL,'Y',2,NULL,'系统参数',1,8,14),(10,NULL,'admin',NULL,'admin','个人工作�?,NULL,'N',1,NULL,'个人工作�?,0,1,15),(30,NULL,'admin',NULL,NULL,'操作管理',NULL,'Y',2,NULL,'操作管理',1,5,16),(50,NULL,'admin',NULL,NULL,'系统监控',NULL,'N',1,NULL,'系统监控',0,4,50),(51,NULL,'admin',NULL,NULL,'SQL监控',NULL,'Y',2,NULL,'SQL监控',50,1,51),(81,'2011-08-11 16:10:10','admin','2011-08-11 17:31:01','admin','工作流管�?,NULL,'N',1,NULL,'工作流管�?,0,4,81),(82,'2011-08-11 16:10:28','admin',NULL,NULL,'流程业务类型',NULL,'Y',2,NULL,'流程业务类型',81,5,82),(91,'2011-08-11 17:03:38','admin',NULL,NULL,'页面模板管理',NULL,'Y',2,NULL,'页面模板管理',81,4,91),(101,'2011-08-11 17:31:29','admin',NULL,NULL,'操作管理',NULL,'Y',2,NULL,'操作管理',81,3,101),(111,'2011-08-11 19:30:22','admin',NULL,NULL,'流程管理',NULL,'Y',2,NULL,'流程管理',81,2,111),(121,'2011-08-12 16:12:23','admin',NULL,NULL,'',NULL,'Y',2,NULL,'新建任务',10,1,121),(122,'2011-08-12 16:12:37','admin',NULL,NULL,'',NULL,'Y',2,NULL,'我的任务',10,2,122),(123,'2011-08-12 16:12:51','admin',NULL,NULL,'',NULL,'Y',2,NULL,'已处理任�?,10,3,123)
+		      2 Query       /*Table structure for table `st_operation` */ DROP TABLE IF EXISTS `st_operation`
+		      2 Query       CREATE TABLE `st_operation` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `code` varchar(255) DEFAULT NULL, `memo` varchar(255) DEFAULT NULL, `name` varchar(255) DEFAULT NULL, `ORDER_INDEX` bigint(20) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_operation` */ insert into `st_operation`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`code`,`memo`,`name`,`ORDER_INDEX`) values (1,NULL,'admin',NULL,'admin','core.add','添加','添加',NULL),(2,NULL,'admin',NULL,NULL,'core.update','更新','更新',NULL),(3,NULL,'admin',NULL,NULL,'core.remove','删除','删除',NULL),(4,NULL,'admin',NULL,NULL,'core.authRole','授予角色','授予角色',NULL),(5,NULL,'admin',NULL,NULL,'core.authResource','授予资源','授予资源',NULL),(6,NULL,'admin',NULL,NULL,'core.authUser','授权用户','授权用户',NULL),(7,NULL,'admin',NULL,NULL,'core.addSiblingNode','添加同级节点','添加同级节点',NULL),(8,NULL,'admin',NULL,NULL,'core.addChildNode','添加子节�?,'添加子节�?,NULL),(9,NULL,'admin',NULL,NULL,'core.updateNode','更新节点','更新节点',NULL),(10,NULL,'admin',NULL,NULL,'core.removeNode','删除节点','删除节点',NULL),(11,NULL,'admin',NULL,NULL,'core.orderNode','节点排序','节点排序',NULL)
+		      2 Query       /*Table structure for table `st_operlog` */ DROP TABLE IF EXISTS `st_operlog`
+		      2 Query       CREATE TABLE `st_operlog` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `entityType` varchar(255) DEFAULT NULL, `exeOperation` varchar(255) DEFAULT NULL, `exeType` varchar(255) DEFAULT NULL, `USER_ID` bigint(20) DEFAULT NULL, `USER_NAME` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_operlog` */ /*Table structure for table `st_organization` */ DROP TABLE IF EXISTS `st_organization`
+		      2 Query       CREATE TABLE `st_organization` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `descn` varchar(255) DEFAULT NULL, `level_` int(11) DEFAULT NULL, `name` varchar(255) DEFAULT NULL, `orgSeq` varchar(255) DEFAULT NULL, `parentId` bigint(20) NOT NULL, `theSort` int(11) NOT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_organization` */ insert into `st_organization`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`descn`,`level_`,`name`,`orgSeq`,`parentId`,`theSort`) values (1,NULL,NULL,NULL,'admin','安徽电信',1,'安徽电信',NULL,0,1),(2,NULL,NULL,NULL,'admin','合肥',2,'合肥',NULL,1,1),(3,NULL,'admin',NULL,'admin','蚌埠',2,'蚌埠',NULL,1,2),(4,NULL,'admin',NULL,'admin','芜湖',2,'芜湖',NULL,1,2)
+		      2 Query       /*Table structure for table `st_primarykey` */ DROP TABLE IF EXISTS `st_primarykey`
+		      2 Query       CREATE TABLE `st_primarykey` ( `code` bigint(20) NOT NULL, `name` varchar(30) NOT NULL, PRIMARY KEY (`code`,`name`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_primarykey` */ insert into `st_primarykey`(`code`,`name`) values (10,'ST_ROLE'),(10,'ST_USER'),(10,'TEST_FLOW_LEAVE'),(20,'ST_DICTBUSINTYPE'),(30,'ST_CONFIG'),(30,'ST_ORGANIZATION'),(50,'ST_OPERLOG'),(60,'BusinessStarFlow'),(90,'ST_DICTIONARY'),(90,'ST_OPERATION'),(130,'ST_MENU'),(130,'ST_RESOURCE')
+		      2 Query       /*Table structure for table `st_resource` */ DROP TABLE IF EXISTS `st_resource`
+		      2 Query       CREATE TABLE `st_resource` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `action` varchar(255) DEFAULT NULL, `descn` varchar(255) DEFAULT NULL, `enabled` char(1) NOT NULL, `name` varchar(255) DEFAULT NULL, `priority` int(11) NOT NULL, `type` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_resource` */ insert into `st_resource`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`action`,`descn`,`enabled`,`name`,`priority`,`type`) values (1,NULL,NULL,NULL,'admin','/login','用户无权限，跳转到登录页�?,'Y','登录页面',1,'uri'),(2,NULL,NULL,NULL,'admin','/security/loginFailure.json','登录失败访问链接','Y','登录失败访问链接',2,'uri'),(3,NULL,NULL,NULL,'admin','/resources/**','过滤js、css、图片，避免当做rest请求，同时对这些资源增加浏览器缓存信�?,'Y','静态资源信�?,3,'uri'),(4,NULL,NULL,NULL,'admin','/**',NULL,'Y','所有请�?,999,'uri'),(5,NULL,'admin',NULL,'admin','./resource/index','权限管理','Y','权限管理',4,'menu'),(6,NULL,NULL,NULL,'admin','./menu/index',NULL,'Y','菜单管理',5,'menu'),(7,NULL,'admin',NULL,NULL,'./role/index',NULL,'Y','角色管理',6,'menu'),(8,NULL,'admin',NULL,NULL,'./org/index','机构管理','Y','机构管理',7,'menu'),(9,NULL,'admin',NULL,NULL,'./operLog/index','操作日志监控','Y','操作日志监控',8,'menu'),(10,NULL,'admin',NULL,NULL,'./user/index','用户管理','Y','用户管理',9,'menu'),(11,NULL,'admin',NULL,'admin','./dict/index','业务字典','Y','业务字典',10,'menu'),(12,NULL,NULL,NULL,'admin','/systemadmin','系统管理','Y','系统管理',11,'menu'),(14,NULL,'admin',NULL,'admin','./config/index','系统参数','Y','系统参数',12,'menu'),(15,NULL,'admin',NULL,'admin','/workspace','个人工作�?,'Y','个人工作�?,13,'menu'),(16,NULL,'admin',NULL,NULL,'./operation/index','操作管理','Y','操作管理',14,'menu'),(50,NULL,'admin',NULL,'admin','/systemmonitor','系统监控','Y','系统监控',15,'menu'),(51,NULL,'admin',NULL,'admin','./monitor/page/sqlStat','SQL监控','Y','SQL监控',16,'menu'),(81,'2011-08-11 16:05:31','admin',NULL,NULL,'/fowadmin','工作流管�?,'Y','工作流管�?,17,'menu'),(82,'2011-08-11 16:09:17','admin',NULL,NULL,'./businessType/index','流程业务类型','Y','流程业务类型',18,'menu'),(91,'2011-08-11 17:02:58','admin',NULL,NULL,'./pageTemplate/index','页面模板管理','Y','页面模板管理',19,'menu'),(101,'2011-08-11 17:30:33','admin',NULL,NULL,'./flowOperation/index','操作管理','Y','操作管理',20,'menu'),(111,'2011-08-11 19:29:55','admin',NULL,NULL,'./flow/index','流程管理','Y','流程管理',21,'menu'),(121,'2011-08-12 16:09:31','admin',NULL,NULL,'./leave/newLeave','新建任务','Y','新建任务',22,'menu'),(122,'2011-08-12 16:09:56','admin',NULL,NULL,'./leave/personLeave','我的任务','Y','我的任务',23,'menu'),(123,'2011-08-12 16:10:24','admin',NULL,NULL,'./leave/finishedLeave','已处理任�?,'Y','已处理任�?,24,'menu')
+		      2 Query       /*Table structure for table `st_role` */ DROP TABLE IF EXISTS `st_role`
+		      2 Query       CREATE TABLE `st_role` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `code` varchar(255) DEFAULT NULL, `descn` varchar(255) DEFAULT NULL, `enabled` char(1) NOT NULL, `name` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_role` */ insert into `st_role`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`code`,`descn`,`enabled`,`name`) values (1,NULL,NULL,NULL,NULL,'ROLE_ADMIN',NULL,'Y','管理员角�?),(2,NULL,NULL,NULL,'admin','ROLE_USER',NULL,'Y','普通用�?),(3,NULL,NULL,NULL,NULL,'IS_AUTHENTICATED_ANONYMOUSLY',NULL,'Y','匿名用户角色')
+		      2 Query       /*Table structure for table `st_role_operation` */ DROP TABLE IF EXISTS `st_role_operation`
+		      2 Query       CREATE TABLE `st_role_operation` ( `ROLE_ID` bigint(20) NOT NULL, `OPERATION_ID` bigint(20) NOT NULL, PRIMARY KEY (`ROLE_ID`,`OPERATION_ID`), KEY `FK91AAF25CE86314E` (`ROLE_ID`), KEY `FK91AAF25C814FD86` (`OPERATION_ID`), CONSTRAINT `FK91AAF25C814FD86` FOREIGN KEY (`OPERATION_ID`) REFERENCES `st_operation` (`RES_ID`), CONSTRAINT `FK91AAF25CE86314E` FOREIGN KEY (`ROLE_ID`) REFERENCES `st_role` (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_role_operation` */ insert into `st_role_operation`(`ROLE_ID`,`OPERATION_ID`) values (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),(1,9),(1,10),(1,11)
+		      2 Query       /*Table structure for table `st_role_resource` */ DROP TABLE IF EXISTS `st_role_resource`
+		      2 Query       CREATE TABLE `st_role_resource` ( `ROLE_ID` bigint(20) NOT NULL, `RESOURCE_ID` bigint(20) NOT NULL, PRIMARY KEY (`ROLE_ID`,`RESOURCE_ID`), KEY `FK60C93059E86314E` (`ROLE_ID`), KEY `FK60C930593B1AA04E` (`RESOURCE_ID`), CONSTRAINT `FK60C930593B1AA04E` FOREIGN KEY (`RESOURCE_ID`) REFERENCES `st_resource` (`RES_ID`), CONSTRAINT `FK60C93059E86314E` FOREIGN KEY (`ROLE_ID`) REFERENCES `st_role` (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_role_resource` */ insert into `st_role_resource`(`ROLE_ID`,`RESOURCE_ID`) values (1,4),(1,5),(1,6),(1,7),(1,8),(1,9),(1,10),(1,11),(1,12),(1,14),(1,15),(1,16),(1,50),(1,51),(1,81),(1,82),(1,91),(1,101),(1,111),(1,121),(1,122),(1,123),(2,15),(2,121),(2,122),(2,123),(3,1),(3,2),(3,3)
+		      2 Query       /*Table structure for table `st_user` */ DROP TABLE IF EXISTS `st_user`
+		      2 Query       CREATE TABLE `st_user` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `AREA_ID` bigint(20) DEFAULT NULL, `birthday` varchar(255) DEFAULT NULL, `email` varchar(255) DEFAULT NULL, `ERROR_COUNT` int(11) DEFAULT NULL, `gender` char(1) NOT NULL, `LAST_LOGIN_TIME` datetime DEFAULT NULL, `LOCK_TIME` datetime DEFAULT NULL, `MPHONE_NO` varchar(255) DEFAULT NULL, `ORG_ID` bigint(20) DEFAULT NULL, `PASSWD_INVAL_TIME` datetime DEFAULT NULL, `password` varchar(255) DEFAULT NULL, `PHONE_NO` varchar(255) DEFAULT NULL, `USER_CODE` varchar(255) DEFAULT NULL, `USER_NAME` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_user` */ insert into `st_user`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`AREA_ID`,`birthday`,`email`,`ERROR_COUNT`,`gender`,`LAST_LOGIN_TIME`,`LOCK_TIME`,`MPHONE_NO`,`ORG_ID`,`PASSWD_INVAL_TIME`,`password`,`PHONE_NO`,`USER_CODE`,`USER_NAME`) values (1,NULL,NULL,NULL,NULL,1,NULL,'bsli123@hotmail.com',0,'F','2011-08-10 20:12:34',NULL,NULL,1,NULL,'670b14728ad9902aecba32e22fa4f6bd',NULL,'admin','管理�?),(2,NULL,NULL,NULL,NULL,2,NULL,'bsli123@hotmail.com',0,'M',NULL,NULL,NULL,2,NULL,'670b14728ad9902aecba32e22fa4f6bd',NULL,'adminhf','合肥管理�?),(3,NULL,NULL,NULL,NULL,4,NULL,'zhangsan@hotmail.com',0,'M',NULL,NULL,NULL,4,NULL,'670b14728ad9902aecba32e22fa4f6bd',NULL,'adminwh','芜湖管理�?)
+		      2 Query       /*Table structure for table `st_user_role` */ DROP TABLE IF EXISTS `st_user_role`
+		      2 Query       CREATE TABLE `st_user_role` ( `USER_ID` bigint(20) NOT NULL, `ROLE_ID` bigint(20) NOT NULL, PRIMARY KEY (`USER_ID`,`ROLE_ID`), KEY `FKBCFB340CE86314E` (`ROLE_ID`), KEY `FKBCFB340CB3B0F52E` (`USER_ID`), CONSTRAINT `FKBCFB340CB3B0F52E` FOREIGN KEY (`USER_ID`) REFERENCES `st_user` (`RES_ID`), CONSTRAINT `FKBCFB340CE86314E` FOREIGN KEY (`ROLE_ID`) REFERENCES `st_role` (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `st_user_role` */ insert into `st_user_role`(`USER_ID`,`ROLE_ID`) values (1,1),(1,2),(2,2),(3,2)
+		      2 Query       /*Table structure for table `stf_business_process` */ DROP TABLE IF EXISTS `stf_business_process`
+		      2 Query       CREATE TABLE `stf_business_process` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `BUSINESS_TYPE_ID` bigint(20) DEFAULT NULL, `MEMO` varchar(255) DEFAULT NULL, `FLOW_NAME` varchar(255) DEFAULT NULL, `TYPE` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `stf_business_process` */ insert into `stf_business_process`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`BUSINESS_TYPE_ID`,`MEMO`,`FLOW_NAME`,`TYPE`) values (24,NULL,NULL,NULL,NULL,22,NULL,'请假流程','flow'),(41,NULL,NULL,NULL,NULL,22,NULL,'请假子流�?,'subflow')
+		      2 Query       /*Table structure for table `stf_business_type` */ DROP TABLE IF EXISTS `stf_business_type`
+		      2 Query       CREATE TABLE `stf_business_type` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `CODE` varchar(255) DEFAULT NULL, `LEAF_NAME` varchar(255) DEFAULT NULL, `NAME` varchar(255) DEFAULT NULL, `ORDER_INDEX` int(11) NOT NULL, `PARENT_ID` bigint(20) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `stf_business_type` */ insert into `stf_business_type`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`CODE`,`LEAF_NAME`,`NAME`,`ORDER_INDEX`,`PARENT_ID`) values (21,NULL,NULL,NULL,NULL,'9999','N','安徽电信',1,0),(22,NULL,NULL,NULL,NULL,'1','Y','合肥分公�?,1,21)
+		      2 Query       /*Table structure for table `stf_operation` */ DROP TABLE IF EXISTS `stf_operation`
+		      2 Query       CREATE TABLE `stf_operation` ( `RES_ID` bigint(20) NOT NULL, `ACTION` varchar(255) DEFAULT NULL, `BUSINESS_TYPE_ID` bigint(20) DEFAULT NULL, `CODE` varchar(255) DEFAULT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `DISPLAY_NAME` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `MEMO` varchar(255) DEFAULT NULL, `NAME` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+110825 10:06:05	      2 Query       /*Data for the table `stf_operation` */ insert into `stf_operation`(`RES_ID`,`ACTION`,`BUSINESS_TYPE_ID`,`CODE`,`RES_CREATE_DATE`,`RES_CREATOR`,`DISPLAY_NAME`,`RES_EDIT_DATE`,`RES_EDITOR`,`MEMO`,`NAME`) values (52,'handler()',22,'tijiao',NULL,NULL,'提交',NULL,NULL,'提交','提交')
+		      2 Query       /*Table structure for table `stf_page_template` */ DROP TABLE IF EXISTS `stf_page_template`
+		      2 Query       CREATE TABLE `stf_page_template` ( `RES_ID` bigint(20) NOT NULL, `ACTION` varchar(255) DEFAULT NULL, `BUSINESS_TYPE_ID` bigint(20) DEFAULT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `MEMO` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `NAME` varchar(100) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `stf_page_template` */ insert into `stf_page_template`(`RES_ID`,`ACTION`,`BUSINESS_TYPE_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`MEMO`,`RES_EDIT_DATE`,`RES_EDITOR`,`NAME`) values (23,'./action.do',22,NULL,NULL,'处理页面',NULL,NULL,'处理页面')
+		      2 Query       /*Table structure for table `test_flow_leave` */ DROP TABLE IF EXISTS `test_flow_leave`
+		      2 Query       CREATE TABLE `test_flow_leave` ( `RES_ID` bigint(20) NOT NULL, `RES_CREATE_DATE` datetime DEFAULT NULL, `RES_CREATOR` varchar(255) DEFAULT NULL, `RES_EDIT_DATE` datetime DEFAULT NULL, `RES_EDITOR` varchar(255) DEFAULT NULL, `days` int(11) DEFAULT NULL, `descn` varchar(255) DEFAULT NULL, `name` varchar(255) DEFAULT NULL, `processInstId` bigint(20) DEFAULT NULL, `status` varchar(255) DEFAULT NULL, PRIMARY KEY (`RES_ID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `test_flow_leave` */ insert into `test_flow_leave`(`RES_ID`,`RES_CREATE_DATE`,`RES_CREATOR`,`RES_EDIT_DATE`,`RES_EDITOR`,`days`,`descn`,`name`,`processInstId`,`status`) values (1,NULL,NULL,NULL,NULL,5,'测试StarFlow','测试StarFlow',1,'Y')
+		      2 Query       /*Table structure for table `wf_activityinst` */ DROP TABLE IF EXISTS `wf_activityinst`
+		      2 Query       CREATE TABLE `wf_activityinst` ( `ACTIVITYINSTID` bigint(20) NOT NULL, `ACTIVITYINSTNAME` varchar(100) DEFAULT NULL, `DESCRIPTION` varchar(500) DEFAULT NULL, `ACTIVITYTYPE` varchar(10) DEFAULT NULL, `ACTIVITYDEFID` varchar(50) DEFAULT NULL, `PROCESSINSTID` bigint(20) DEFAULT NULL, `CURRENTSTATE` bigint(20) DEFAULT NULL, `LIMITTIME` bigint(20) DEFAULT NULL, `CREATETIME` datetime DEFAULT NULL, `STARTTIME` datetime DEFAULT NULL, `ENDTIME` datetime DEFAULT NULL, `FINALTIME` datetime DEFAULT NULL, PRIMARY KEY (`ACTIVITYINSTID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_activityinst` */ insert into `wf_activityinst`(`ACTIVITYINSTID`,`ACTIVITYINSTNAME`,`DESCRIPTION`,`ACTIVITYTYPE`,`ACTIVITYDEFID`,`PROCESSINSTID`,`CURRENTSTATE`,`LIMITTIME`,`CREATETIME`,`STARTTIME`,`ENDTIME`,`FINALTIME`) values (1,'开�?,NULL,'start','act_start',1,12,0,'2011-08-12 16:19:48','2011-08-12 16:19:48','2011-08-12 16:19:48',NULL),(2,'部门经理审核','','manual','Act_1',1,12,0,'2011-08-12 16:19:48','2011-08-12 16:19:48','2011-08-12 16:32:20',NULL),(11,'总经理审�?,'','manual','Act_2',1,12,0,'2011-08-12 16:32:20','2011-08-12 16:32:20','2011-08-13 17:39:05',NULL),(21,'请假子流�?,'','subProcess','Act_4',1,12,0,'2011-08-13 17:39:05','2011-08-13 17:39:05','2011-08-18 16:23:15',NULL),(22,'开�?,NULL,'start','act_start',11,12,0,'2011-08-13 17:39:05','2011-08-13 17:39:05','2011-08-13 17:39:05',NULL),(23,'申请人确�?,'','manual','Act_1',11,12,0,'2011-08-13 17:39:05','2011-08-13 17:39:05','2011-08-18 16:23:15',NULL),(31,'结束',NULL,'finish','act_finish',11,12,0,'2011-08-18 16:23:15','2011-08-18 16:23:15','2011-08-18 16:23:15',NULL),(32,'结束',NULL,'finish','act_finish',1,12,0,'2011-08-18 16:23:15','2011-08-18 16:23:15','2011-08-18 16:23:15',NULL)
+		      2 Query       /*Table structure for table `wf_participant` */ DROP TABLE IF EXISTS `wf_participant`
+		      2 Query       CREATE TABLE `wf_participant` ( `PARTICID` bigint(20) NOT NULL, `WORKITEMID` bigint(20) NOT NULL, `PARTICTYPE` varchar(20) DEFAULT NULL, `PARTICIPANT` varchar(50) DEFAULT NULL, `PARTICIPANT2` varchar(50) DEFAULT NULL, PRIMARY KEY (`PARTICID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_participant` */ insert into `wf_participant`(`PARTICID`,`WORKITEMID`,`PARTICTYPE`,`PARTICIPANT`,`PARTICIPANT2`) values (1,1,'person','admin',NULL),(11,11,'person','admin',NULL),(21,21,'person','admin',NULL)
+		      2 Query       /*Table structure for table `wf_primarykey` */ DROP TABLE IF EXISTS `wf_primarykey`
+		      2 Query       CREATE TABLE `wf_primarykey` ( `CODE` bigint(20) NOT NULL, `NAME` varchar(30) NOT NULL, PRIMARY KEY (`CODE`,`NAME`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_primarykey` */ insert into `wf_primarykey`(`CODE`,`NAME`) values (20,'processInstId'),(30,'participantId'),(30,'workItemId'),(40,'activityInstId'),(40,'transCtrlId')
+		      2 Query       /*Table structure for table `wf_processdefine` */ DROP TABLE IF EXISTS `wf_processdefine`
+		      2 Query       CREATE TABLE `wf_processdefine` ( `PROCESSDEFID` bigint(20) NOT NULL, `PROCESSDEFNAME` varchar(100) DEFAULT NULL, `PROCESSCHNAME` varchar(100) DEFAULT NULL, `DESCRIPTION` varchar(500) DEFAULT NULL, `CURRENTSTATE` int(2) DEFAULT NULL, `VERSIONSIGN` varchar(20) DEFAULT NULL, `LIMITTIME` int(11) DEFAULT NULL, `PROCESSDEFCONTENT` text, `CREATETIME` datetime DEFAULT NULL, `CREATOR` varchar(64) DEFAULT NULL, `UPDATETIME` datetime DEFAULT NULL, `UPDATOR` varchar(64) DEFAULT NULL, PRIMARY KEY (`PROCESSDEFID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_processdefine` */ insert into `wf_processdefine`(`PROCESSDEFID`,`PROCESSDEFNAME`,`PROCESSCHNAME`,`DESCRIPTION`,`CURRENTSTATE`,`VERSIONSIGN`,`LIMITTIME`,`PROCESSDEFCONTENT`,`CREATETIME`,`CREATOR`,`UPDATETIME`,`UPDATOR`) values (53,'flow.41','请假子流�?,'',3,'1.1.1',0,'<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ProcessDefine name=\"flow.41\" version=\"1.1.1\" chname=\"请假子流程\">\n <ProcessProperty>\n <limitTime>0</limitTime>\n <processStarterType>all</processStarterType>\n <description></description>\n <ProcessStarters>\n </ProcessStarters>\n <TriggerEvents>\n </TriggerEvents>\n <ExtendNodes>\n </ExtendNodes>\n </ProcessProperty>\n <Activitys>\n <Activity id=\"Act_1\" type=\"manual\" name=\"申请人确认\">\n <splitMode>XOR</splitMode>\n <joinMode>XOR</joinMode>\n <participantType>process-starter</participantType>\n <particiLogic></particiLogic>\n <particiSpecActID></particiSpecActID>\n <Participants>\n </Participants>\n <isAllowAppointParticipants>false</isAllowAppointParticipants>\n <isFreeActivity>false</isFreeActivity>\n <freeRangeStrategy></freeRangeStrategy>\n <FreeActivities>\n </FreeActivities>\n <isOnlyLimitedManualActivity>true</isOnlyLimitedManualActivity>\n <wiMode>single</wiMode>\n <workitemNumStrategy></workitemNumStrategy>\n <isSequentialExecute>false</isSequentialExecute>\n <finishRule></finishRule>\n <finishRequiredPercent></finishRequiredPercent>\n <finishRquiredNum></finishRquiredNum>\n <isAutoCancel>false</isAutoCancel>\n <limitTime></limitTime>\n <activateRuleType>directRunning</activateRuleType>\n <startStrategybyAppAction></startStrategybyAppAction>\n <resetParticipant>originalParticipant</resetParticipant>\n <action>23</action>\n <Operations>\n <operation id=\"52\" code=\"tijiao\" action=\"handler()\" name=\"提交\"/>\n </Operations>\n <TriggerEvents>\n </TriggerEvents>\n <ExtendNodes>\n </ExtendNodes>\n <description></description>\n <position left=\"255\" top=\"119\"/>\n </Activity>\n <Activity id=\"act_finish\" type=\"finish\" name=\"结束\">\n <joinMode>XOR</joinMode>\n <activateRuleType>directRunning</activateRuleType>\n <startStrategybyAppAction></startStrategybyAppAction>\n <description></description>\n <position left=\"500\" top=\"120\"/>\n </Activity>\n <Activity id=\"act_start\" type=\"start\" name=\"开始\">\n <splitMode>XOR</splitMode>\n <action></action>\n <Operaions>\n </Operaions>\n <description></description>\n <position left=\"40\" top=\"120\"/>\n </Activity>\n </Activitys>\n <Transitions>\n <Transition id=\"Line_2\" from=\"Act_1\" to=\"act_finish\" name=\"\">\n <isDefault>true</isDefault>\n <isSimpleExpression>true</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ ]]></complexExpressionValue>\n <priority>40</priority>\n <position points=\"275,139 520,140\"/>\n <description></description>\n </Transition>\n <Transition id=\"Line_1\" from=\"act_start\" to=\"Act_1\" name=\"\">\n <isDefault>true</isDefault>\n <isSimpleExpression>true</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ ]]></complexExpressionValue>\n <priority>40</priority>\n <position points=\"60,140 275,139\"/>\n <description></description>\n </Transition>\n </Transitions>\n</ProcessDefine>\n','2011-08-12 15:47:31','admin',NULL,NULL),(54,'flow.24','请假流程','',3,'1.1.1',0,'<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ProcessDefine name=\"flow.24\" version=\"1.1.1\" chname=\"请假流程\">\n <ProcessProperty>\n <limitTime>0</limitTime>\n <processStarterType>all</processStarterType>\n <description></description>\n <ProcessStarters>\n </ProcessStarters>\n <TriggerEvents>\n </TriggerEvents>\n <ExtendNodes>\n </ExtendNodes>\n </ProcessProperty>\n <Activitys>\n <Activity id=\"Act_1\" type=\"manual\" name=\"部门经理审核\">\n <splitMode>XOR</splitMode>\n <joinMode>XOR</joinMode>\n <participantType>process-starter</participantType>\n <particiLogic></particiLogic>\n <particiSpecActID></particiSpecActID>\n <Participants>\n </Participants>\n <isAllowAppointParticipants>false</isAllowAppointParticipants>\n <isFreeActivity>false</isFreeActivity>\n <freeRangeStrategy></freeRangeStrategy>\n <FreeActivities>\n </FreeActivities>\n <isOnlyLimitedManualActivity>true</isOnlyLimitedManualActivity>\n <wiMode>single</wiMode>\n <workitemNumStrategy></workitemNumStrategy>\n <isSequentialExecute>false</isSequentialExecute>\n <finishRule></finishRule>\n <finishRequiredPercent></finishRequiredPercent>\n <finishRquiredNum></finishRquiredNum>\n <isAutoCancel>false</isAutoCancel>\n <limitTime></limitTime>\n <activateRuleType>directRunning</activateRuleType>\n <startStrategybyAppAction></startStrategybyAppAction>\n <resetParticipant>originalParticipant</resetParticipant>\n <action>23</action>\n <Operations>\n <operation id=\"52\" code=\"tijiao\" action=\"handler()\" name=\"提交\"/>\n </Operations>\n <TriggerEvents>\n </TriggerEvents>\n <ExtendNodes>\n </ExtendNodes>\n <description></description>\n <position left=\"158\" top=\"120\"/>\n </Activity>\n <Activity id=\"Act_2\" type=\"manual\" name=\"总经理审核\">\n <splitMode>XOR</splitMode>\n <joinMode>XOR</joinMode>\n <participantType>process-starter</participantType>\n <particiLogic></particiLogic>\n <particiSpecActID></particiSpecActID>\n <Participants>\n </Participants>\n <isAllowAppointParticipants>false</isAllowAppointParticipants>\n <isFreeActivity>false</isFreeActivity>\n <freeRangeStrategy></freeRangeStrategy>\n <FreeActivities>\n </FreeActivities>\n <isOnlyLimitedManualActivity>true</isOnlyLimitedManualActivity>\n <wiMode>single</wiMode>\n <workitemNumStrategy></workitemNumStrategy>\n <isSequentialExecute>false</isSequentialExecute>\n <finishRule></finishRule>\n <finishRequiredPercent></finishRequiredPercent>\n <finishRquiredNum></finishRquiredNum>\n <isAutoCancel>false</isAutoCancel>\n <limitTime></limitTime>\n <activateRuleType>directRunning</activateRuleType>\n <startStrategybyAppAction></startStrategybyAppAction>\n <resetParticipant>originalParticipant</resetParticipant>\n <action>23</action>\n <Operations>\n <operation id=\"52\" code=\"tijiao\" action=\"handler()\" name=\"提交\"/>\n </Operations>\n <TriggerEvents>\n </TriggerEvents>\n <ExtendNodes>\n </ExtendNodes>\n <description></description>\n <position left=\"231\" top=\"4\"/>\n </Activity>\n <Activity id=\"Act_4\" type=\"subProcess\" name=\"请假子流程\">\n <splitMode>XOR</splitMode>\n <invokePattern>synchronous</invokePattern>\n <subProcess>flow.41</subProcess>\n <joinMode>XOR</joinMode>\n <activateRuleType>directRunning</activateRuleType>\n <startStrategybyAppAction></startStrategybyAppAction>\n <TriggerEvents>\n </TriggerEvents>\n <description></description>\n <position left=\"331\" top=\"120\"/>\n </Activity>\n <Activity id=\"act_finish\" type=\"finish\" name=\"结束\">\n <joinMode>XOR</joinMode>\n <activateRuleType>directRunning</activateRuleType>\n <startStrategybyAppAction></startStrategybyAppAction>\n <description></description>\n <position left=\"500\" top=\"120\"/>\n </Activity>\n <Activity id=\"act_start\" type=\"start\" name=\"开始\">\n <splitMode>XOR</splitMode>\n <action></action>\n <Operaions>\n </Operaions>\n <description></description>\n <position left=\"40\" top=\"120\"/>\n </Activity>\n </Activitys>\n <Transitions>\n <Transition id=\"Line_8\" from=\"Act_2\" to=\"Act_4\" name=\"\">\n <isDefault>true</isDefault>\n <isSimpleExpression>true</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ ]]></complexExpressionValue>\n <priority>40</priority>\n <position points=\"251,24 351,140\"/>\n <description></description>\n </Transition>\n <Transition id=\"Line_4\" from=\"Act_1\" to=\"Act_2\" name=\"同意且请假大�?天\">\n <isDefault>false</isDefault>\n <isSimpleExpression>false</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ status==\'Y\' && days>3 ]]></complexExpressionValue>\n <priority>0</priority>\n <position points=\"178,140 251,24\"/>\n <description></description>\n </Transition>\n <Transition id=\"Line_6\" from=\"Act_4\" to=\"act_finish\" name=\"\">\n <isDefault>true</isDefault>\n <isSimpleExpression>true</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ ]]></complexExpressionValue>\n <priority>40</priority>\n <position points=\"351,140 520,140\"/>\n <description></description>\n </Transition>\n <Transition id=\"Line_5\" from=\"Act_1\" to=\"Act_4\" name=\"\">\n <isDefault>true</isDefault>\n <isSimpleExpression>true</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ ]]></complexExpressionValue>\n <priority>40</priority>\n <position points=\"178,140 351,140\"/>\n <description></description>\n </Transition>\n <Transition id=\"Line_1\" from=\"act_start\" to=\"Act_1\" name=\"\">\n <isDefault>true</isDefault>\n <isSimpleExpression>true</isSimpleExpression>\n <leftValue></leftValue>\n <compType>EQ</compType>\n <rightValue></rightValue>\n <complexExpressionValue><![CDATA[ ]]></complexExpressionValue>\n <priority>40</priority>\n <position points=\"60,140 178,140\"/>\n <description></description>\n </Transition>\n </Transitions>\n</ProcessDefine>\n','2011-08-12 15:52:18','admin',NULL,NULL)
+		      2 Query       /*Table structure for table `wf_processinst` */ DROP TABLE IF EXISTS `wf_processinst`
+		      2 Query       CREATE TABLE `wf_processinst` ( `PROCESSINSTID` bigint(20) NOT NULL, `PROCESSDEFID` bigint(20) DEFAULT NULL, `PROCESSINSTNAME` varchar(100) DEFAULT NULL, `CREATOR` varchar(50) DEFAULT NULL, `CURRENTSTATE` bigint(20) DEFAULT NULL, `SUBFLOW` char(1) DEFAULT NULL, `LIMITNUM` bigint(20) DEFAULT NULL, `CREATETIME` datetime DEFAULT NULL, `STARTTIME` datetime DEFAULT NULL, `ENDTIME` datetime DEFAULT NULL, `FINALTIME` datetime DEFAULT NULL, `PARENTPROCINSTID` bigint(20) DEFAULT NULL, `ACTIVITYINSTID` bigint(20) DEFAULT NULL, PRIMARY KEY (`PROCESSINSTID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_processinst` */ insert into `wf_processinst`(`PROCESSINSTID`,`PROCESSDEFID`,`PROCESSINSTNAME`,`CREATOR`,`CURRENTSTATE`,`SUBFLOW`,`LIMITNUM`,`CREATETIME`,`STARTTIME`,`ENDTIME`,`FINALTIME`,`PARENTPROCINSTID`,`ACTIVITYINSTID`) values (1,54,'flow.24','admin',12,'N',0,'2011-08-12 16:19:48','2011-08-12 16:19:48','2011-08-18 16:23:15',NULL,1,0),(11,53,'flow.41','admin',12,'Y',0,'2011-08-13 17:39:05','2011-08-13 17:39:05','2011-08-18 16:23:15',NULL,1,21)
+		      2 Query       /*Table structure for table `wf_transctrl` */ DROP TABLE IF EXISTS `wf_transctrl`
+		      2 Query       CREATE TABLE `wf_transctrl` ( `TRANSCTRLID` bigint(20) NOT NULL, `SRCACTDEFID` varchar(50) DEFAULT NULL, `SRCACTDEFNAME` varchar(100) DEFAULT NULL, `DESTACTTYPE` varchar(10) DEFAULT NULL, `DESTACTDEFID` varchar(50) DEFAULT NULL, `DESTACTDEFNAME` varchar(100) DEFAULT NULL, `SRCACTTYPE` varchar(10) DEFAULT NULL, `TRANSTIME` datetime DEFAULT NULL, `PROCESSINSTID` bigint(20) DEFAULT NULL, `ISUSE` char(1) DEFAULT NULL, `ISSTARTDESTACT` char(1) DEFAULT NULL, PRIMARY KEY (`TRANSCTRLID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_transctrl` */ insert into `wf_transctrl`(`TRANSCTRLID`,`SRCACTDEFID`,`SRCACTDEFNAME`,`DESTACTTYPE`,`DESTACTDEFID`,`DESTACTDEFNAME`,`SRCACTTYPE`,`TRANSTIME`,`PROCESSINSTID`,`ISUSE`,`ISSTARTDESTACT`) values (1,'act_start','开�?,'manual','Act_1','部门经理审核','start','2011-08-12 16:19:48',1,'N','N'),(11,'Act_1','部门经理审核','manual','Act_2','总经理审�?,'manual','2011-08-12 16:32:20',1,'N','N'),(21,'Act_2','总经理审�?,'subProcess','Act_4','请假子流�?,'manual','2011-08-13 17:39:05',1,'N','N'),(22,'act_start','开�?,'manual','Act_1','申请人确�?,'start','2011-08-13 17:39:05',11,'N','N'),(31,'Act_1','申请人确�?,'finish','act_finish','结束','manual','2011-08-18 16:23:15',11,'N','N'),(32,'Act_4','请假子流�?,'finish','act_finish','结束','subProcess','2011-08-18 16:23:15',1,'N','N')
+		      2 Query       /*Table structure for table `wf_workitem` */ DROP TABLE IF EXISTS `wf_workitem`
+		      2 Query       CREATE TABLE `wf_workitem` ( `WORKITEMID` bigint(20) NOT NULL, `WORKITEMNAME` varchar(100) DEFAULT NULL, `WORKITEMTYPE` char(10) DEFAULT NULL, `CURRENTSTATE` bigint(20) DEFAULT NULL, `PARTICIPANT` varchar(200) DEFAULT NULL, `LIMITTIME` bigint(20) DEFAULT NULL, `ACTIVITYINSTID` bigint(20) DEFAULT NULL, `PROCESSINSTID` bigint(20) DEFAULT NULL, `BIZSTATE` bigint(20) DEFAULT NULL, `STARTTIME` datetime DEFAULT NULL, `ENDTIME` datetime DEFAULT NULL, `FINALTIME` datetime DEFAULT NULL, `activityDefId` varchar(50) DEFAULT NULL, PRIMARY KEY (`WORKITEMID`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+		      2 Query       /*Data for the table `wf_workitem` */ insert into `wf_workitem`(`WORKITEMID`,`WORKITEMNAME`,`WORKITEMTYPE`,`CURRENTSTATE`,`PARTICIPANT`,`LIMITTIME`,`ACTIVITYINSTID`,`PROCESSINSTID`,`BIZSTATE`,`STARTTIME`,`ENDTIME`,`FINALTIME`,`activityDefId`) values (1,'部门经理审核','man',12,'admin',0,2,1,NULL,'2011-08-12 16:19:48','2011-08-12 16:32:20',NULL,'Act_1'),(11,'总经理审�?,'man',12,'admin',0,11,1,NULL,'2011-08-12 16:32:20','2011-08-13 17:39:05',NULL,'Act_2'),(21,'申请人确�?,'man',12,'admin',0,23,11,NULL,'2011-08-13 17:39:05','2011-08-18 16:23:15',NULL,'Act_1')
+		      2 Query       /*!40101 SET SQL_MODE=@OLD_SQL_MODE */
+		      2 Query       /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */
+		      2 Query       /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */
+		      2 Query       /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */
+110825 10:06:09	      1 Query       show databases
+		      2 Quit       
+		      1 Init DB     information_schema
+		      1 Query       show tables
+		      1 Init DB     mysql
+		      1 Query       show tables
+		      1 Init DB     test
+		      1 Query       show tables
+		      1 Init DB     webframe
+		      1 Query       show tables
+110825 10:06:10	      1 Init DB     webframe
+		      1 Query       show tables
+		      1 Query       SELECT count(*) FROM st_config
+		      1 Query       SELECT count(*) FROM st_dictionary
+		      1 Query       SELECT count(*) FROM st_dictionary_type
+		      1 Query       SELECT count(*) FROM st_menu
+		      1 Query       SELECT count(*) FROM st_operation
+		      1 Query       SELECT count(*) FROM st_operlog
+		      1 Query       SELECT count(*) FROM st_organization
+		      1 Query       SELECT count(*) FROM st_primarykey
+		      1 Query       SELECT count(*) FROM st_resource
+		      1 Query       SELECT count(*) FROM st_role
+		      1 Query       SELECT count(*) FROM st_role_operation
+		      1 Query       SELECT count(*) FROM st_role_resource
+		      1 Query       SELECT count(*) FROM st_user
+		      1 Query       SELECT count(*) FROM st_user_role
+		      1 Query       SELECT count(*) FROM stf_business_process
+		      1 Query       SELECT count(*) FROM stf_business_type
+		      1 Query       SELECT count(*) FROM stf_operation
+		      1 Query       SELECT count(*) FROM stf_page_template
+		      1 Query       SELECT count(*) FROM test_flow_leave
+		      1 Query       SELECT count(*) FROM wf_activityinst
+		      1 Query       SELECT count(*) FROM wf_participant
+		      1 Query       SELECT count(*) FROM wf_primarykey
+		      1 Query       SELECT count(*) FROM wf_processdefine
+		      1 Query       SELECT count(*) FROM wf_processinst
+		      1 Query       SELECT count(*) FROM wf_transctrl
+		      1 Query       SELECT count(*) FROM wf_workitem
+110825 10:06:12	      1 Quit       
+110825 10:38:02	      3 Connect     root@localhost on 
+		      3 Shutdown   
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument
+bin\mysqld-nt.exe, Version: 5.0.41-community-nt-log (MySQL Community Edition (GPL)). started with:
+TCP Port: 0, Named Pipe: (null)
+Time                 Id Command    Argument

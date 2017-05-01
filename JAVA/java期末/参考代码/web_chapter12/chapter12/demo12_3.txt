@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无标题文档</title>
+		<style>
+			#nav{
+				width:560px;
+				height: 300px;
+				font-size:12px;
+			}
+			#nav ul{
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+			}
+			#nav ul li{
+				text-align:center;
+				float:left;
+			}
+			#nav ul li a{
+				width:85px;
+				text-decoration:none;
+				height:30px;
+				line-height:30px;
+				font-weight:bold;
+				color:#330033;
+				background-image:url(images/bg1.png);
+				display: inline-block;
+				float:left;
+			}a
+			#nav ul li a:hover{
+				background-image:url(images/bg2.png);
+				color:#FFFF00;
+				font-weight:bold;
+			}
+		</style>
+	</head>
+
+	<body>
+	    <div id="nav">
+		    <ul>
+			    <li><a href="#">首页</a></li>
+			    <li><a href="#">关于我们</a></li>
+			    <li><a href="#">产品介绍</a></li>
+			    <li><a href="#">技术支持</a></li>
+			    <li><a href="#">客户服务</a></li>
+			    <li><a href="#">联系我们</a></li>
+		    </ul>
+	    </div>
+	</body>
+</html>

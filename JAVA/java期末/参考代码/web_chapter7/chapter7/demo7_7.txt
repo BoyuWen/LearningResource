@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>无标题文档</title>
+	<meta charset="utf-8"/>
+	<style>
+		p{color:red; font-size:14px}
+		.greenp{color:green}
+		#bluep{color:blue}
+		#grayp{color: gray}
+	</style>
+</head>
+<body>
+	<p >随人们似乎对iphone5越来越期待了，噢不，可以说对iphone5的等都都开始着急了。</p>
+	<p class="greenp"> 新闻一：iphone5将于9月12日正式发布!</p>
+	<p id="bluep"> 据国外媒体报道，苹果有望于9月同时发布新一代iPhone和iPad mini。</p>
+	<p id="grayp"> 有消息人士在智能移动科技博客iMore上透露，苹果计划在美国时间9月12日(周三)的发布会上推出新一代iPhone，</p>
+	<p class="greenp">而新一代iPhone将在发布9天之后，也就是9月21日(周五)正式发售，而iOS6或将于9月19日提供正式下载。</p>
+	<p> 该消息人士称，新一代iPhone将采用4英寸、16:9平板版本的显示屏。</p>
+</body>
+</html>

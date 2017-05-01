@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+div{
+	width:400px;
+	font-size:12px;
+	max-height:50px;
+    background-color:yellow;
+	}
+</style>
+</head>
+
+<body>
+<div>冬天到了，最惬意的事莫过于众亲友围坐，吃一顿热气腾腾的火锅。山东营养学会理事、济南大学营养学副教授綦翠华在接受记者采访时指出，吃火锅要注重食物多样，多选绿叶菜、红薯、土豆、豆制品、木耳、蘑菇等菜品，少吃下面几类菜品冬天到了，最惬意的事莫过于众亲友围坐，吃一顿热气腾腾的火锅。山东营养学会理事、济南大学营养学副教授綦翠华在接受记者采访时指出，吃火锅要注重食物多样，多选绿叶菜、红薯、土豆、豆制品、木耳、蘑菇等菜品，少吃下面几类菜品冬天到了，最惬意的事莫过于众亲友围坐，吃一顿热气腾腾的火锅。山东营养学会理事、济南大学营养学副教授綦翠华在接受记者采访时指出，吃火锅要注重食物多样，多选绿叶菜、红薯、土豆、豆制品、木耳、蘑菇等菜品，少吃下面几类菜品。</div>
+
+</body>
+</html>

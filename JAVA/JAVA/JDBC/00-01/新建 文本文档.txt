@@ -1,0 +1,13 @@
+grant select,insert on *.* to test@"local" Identified by "123";   
+
+这句命令的意思是，授权用户“test”（其口令为“123”）只能在本地localhost登录，可对任何数据库的任何表（“*.*”前一个“*”代表任何数据库，后一个“*”代表在前个“*”的约束下的任何表）进行select，insert的操作。   
+
+  
+grant update,delete on scut.student to test@"%" Identified by "123";   
+ 
+这句命令的意思是，授权用户“test”（其口令为“123”）可以任何主机登录，可对数据库"scut”下的表“student”进行update，delete的操作。   
+  
+grant all on len.* to ca@"%" Identified by "123456";   
+
+这句命令的意思是，授权用户“ca”（其口令为“123456”）可以任何主机登录，可对数据库"len”下的所有表进行所有的操作。 
+

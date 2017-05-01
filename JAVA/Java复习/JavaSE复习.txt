@@ -1,0 +1,157 @@
+1.Java概述
+	1)Java的历史
+
+	2）Java的意义：开发语言，跨平台、面向对象、动态性、分布式
+				Java程序是运行在JVM之上
+		       开发平台：JavaSE，桌面应用程序开发平台
+				 JavaEE，企业应用开发平台
+				 JavaME，手机等移动产品开发平台
+	3）Java环境的搭建:JVM,JRE,JDK
+	public class HelloWorld{
+		public static void main(String[] args){
+			System.out.println("HelloWorld");
+		}
+	}
+	一个Java源文件中只能有一个public的类，
+	HelloWorld.java为扩展名的源文件	javac.exe
+	HelloWorld.class为扩展名的目标文件 java.exe
+	Eclipse的安装和使用
+2.Java基础
+	1）标识符和关键字：字母、数字、下划线、$、数字不能开头
+	Java标识符的约定：类、接口的名字首字母大写，方法和变量名首字母小写，遵循驼峰命名法，尽量不用下划线和$,常量名全部大写
+	
+	2）数据类型
+		基本数据类型：byte、short、int、long、float、double、char、boolean
+		引用数据类型：类、接口、数组、枚举
+	3）运算符和表达式
+		算数运算符、关系运算符、逻辑运算符、位运算符、三元运算符（？：）、instanceof运算符
+		运算符的优先级
+	4）流程控制：顺序流程，分支流程（if...else，switch...case(注意switch中表达式的类型)），循环流程（for，while，do...while，增强型for循环）
+3.数组
+	1）数组的特点：一个数组中只能存相同类型的数据，
+	可以存基本数据类型数据也可以存引用类型数据
+	数组的长度一旦确定不能再改变。
+	2）一维数组：数组的声明（int[] a; int a[];）Student s[] = new Student[5];
+		     数组的初始化（静态初始化 a={1,2,3,4}，动态初始化 a= new int[5];）
+	3）二维数组（多维数组）:声明（int[][] a; int[] a[]; int a[][];）
+				初始化（静态初始化 a={{1,2},{3,4,5},{6,7,8,9}}，动态初始化 a = new  int[3][]）
+	Student[] s;
+	int[] a;
+	Arrays工具类：封装了常用的数组操作：排序，查找，遍历
+
+4.类和对象
+	1）类和对象的概念（抽象）
+	2）Java中类的定义：属性和方法的声明
+	class Person{
+		String name;
+		public String getName(){
+		
+		}
+		public Person{
+		}
+
+	}
+	构造方法的定义：
+	垃圾回收器：JVM自动调用：空引用对象，隔离引用对象
+	类的分包以及访问带包的类。
+
+5.封装
+	封装的概念
+	private 
+	public
+	protected
+	(默认的访问权限)
+
+6.类的继承
+	继承的语法
+	继承中构造方法的调用
+	 super("");
+	方法的重写
+	1）父子类之间
+	2）子类中跟父类中方法一致（方法名相同，参数一致）
+	3）子类中的方法的访问权限可以扩大
+	方法的重载：
+	抽象类
+	public abstract class Animal{
+		public abstract void hol();
+	} 
+
+	接口:一系列功能的组合（集合），其中并并不具体指明功能的实现
+	interface Alert{
+           void alert();
+	}
+        public class Door implements  Alert，Interface2{
+		public void alert(){
+		  
+		}
+	}
+	Object类：
+7.多态
+Animal a = new Dog();
+Animal a2 = new Cat();
+8.包装器类
+byte short int    long  float double char      boolean
+Byte Short Integer Long Float Double Character Boolean
+9.内部类
+	成员内部类：
+	局部方法内部类：
+	静态内部类：
+	匿名内部类：
+10.枚举
+public enum  Weeks{
+	MONDAY, TUESDAY, WENSDAY, THURSDAY, FRIDAY; 
+
+}
+Weeks w = Weeks.MONDAY;
+
+
+11.异常和断言
+Error,
+		RuntimeException
+Exception
+		受检异常
+异常处理机制：try......catch......fianlly（捕获异常）
+	      throws（传播异常） 异常类
+	      throw 异常对象
+断言：
+
+12.容器和泛型
+	List：关心数据的索引ArrayList，LinkedList
+	Set：关心数据的唯一性HashSet，TreeSet
+	（Queue）
+	Map：键值对存储数据HashMap，TreeMap
+
+
+13.流和文件操作
+	流的分类：按数据的流向：输入流，输出流
+		  按操作数据的单位：字节流，字符流
+	文件的读写：FileReader、FileWriter或者FileInputStream、FileOutputStream
+	File类获取文件的属性。
+
+14.字符串的解析、日期的格式化
+String、StringBuffer、StringBuilder、StringTokenzier
+Date、Calendar，DateFormate、SimpleDateFormate
+
+15.线程和多线程
+1.实现Runnable接口，实现run方法，new Thread(new Runnable()).start()；
+2.继承Thread类，重写run方法，new MyThread().start();
+线程的生命周期：新建，就绪，运行，阻塞，死亡
+线程同步：sys...，避免死锁
+16.网络编程
+	基于Socket的网络编程。ServerSocket，Socket
+
+17.图形界面
+awt
+swing
+
+18.Java的反射
+反射的定义：
+Class、Method、Field、Constructer
+
+19.javac、java命令
+javac ,java -cp ,-d,-D 
+
+20.JDBC数据库连接技术
+Connection，DriverManager，Statement，ResultSet
+Dao模式
+数据库连接池：实现原理，常用的数据库连接池产品

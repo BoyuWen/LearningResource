@@ -1,0 +1,109 @@
+package lww.questionnaire.view;
+
+import java.util.List;
+
+import javafx.beans.InvalidationListener;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
+import javafx.scene.control.ListView;
+import lww.questionnaire.QuestionMain;
+import lww.questionnaire.application.AppUtil;
+import lww.questionnaire.http.HttpRequester;
+import lww.questionnaire.model.Questionnaire;
+import lww.questionnaire.model.QuestionnaireContext;
+
+public class QslistController {
+    //问卷列表控件
+	@FXML
+	private ListView<String> qst_list;
+	private QuestionMain main;
+	//用于存储问卷列表
+	private List<Questionnaire> qstListFiles;
+	//用于存储问卷名称
+	private ObservableList<String> qstNames;
+
+	public void setMain(QuestionMain main) {
+		this.main = main;
+	}
+
+	@FXML // 什么时候需要加
+	private void initialize() {
+		// 向服务器请求问卷列表
+		String response = getQstListFromServer();
+
+		// 解析字符串
+		AppUtil.getQuestionnaireList(response);
+
+		// 给ListView填充数据
+		setData2ListView();
+
+		// 给ListView注册事件监听器
+		qst_list.getSelectionModel().selectedItemProperty().addListener(new ListViewItemListener());
+
+	}
+
+	// 向服务器请求问卷列表
+	private String getQstListFromServer() {
+		HttpRequester requestor = new HttpRequester();
+		// 勇于接受服务器返回的数据
+		String response = null;
+		String url = AppUtil.SERVER_ADDRESS + AppUtil.QUESTIONNAIRE_LIST_PORT + "userID=" + AppUtil.userID;
+		try {
+			// 发送网络请求
+			response = requestor.doGet(url);
+			System.out.println(response);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return response;
+	}
+
+	// 解析字符串
+    // private void analyzeData();      为什么不用写
+	
+	// 给ListView填充数据
+	private void setData2ListView(){
+		qstNames = FXCollections.observableArrayList();
+		for(Questionnaire questionnaire:qstListFiles){
+			qstNames.add(questionnaire.getQuestionnaireName().getValue());
+		}
+		qst_list.setItems(qstNames);
+	}
+
+	// 给ListView注册事件监听器
+	
+	class ListViewItemListener implements ChangeListener<String>{
+
+		@Override
+		public void changed(ObservableValue<? extends String> arg0, String arg1, String arg2) {
+			// 设置当前问卷短信息
+			// 获取用户选择的问卷索引
+			int selectedIndex = qst_list.getSelectionModel().getSelectedIndex();
+			//获取选择的问卷对象
+			Questionnaire qst = qstListFiles.get(selectedIndex);
+			// 设置当前问卷的信息
+			setQuest(qst);
+			// 跳转到问卷描述页面
+			
+		}
+		
+		private void setQuest(Questionnaire qst){
+			QuestionnaireContext context = QuestionnaireContext.getInstance();
+			//保存当前问卷的编号
+			context.setQuestionnaireId(Integer.parseInt(qst.getQuestionnaireId().getValue()));
+			
+			//保存当前问卷的名称
+			context.setQuestionnaireName(qst.getQuestionnaireName().getValue());
+			
+			//保存当前问卷的描述
+			context.setQuestionnaireDesc(qst.getQuestionnaireDesc().getValue());
+		}
+		
+	}
+	
+
+}

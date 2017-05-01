@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div{
+				height:500px;			
+				background-image: url(image/bg.jpg);
+				background-repeat: repeat-x;
+				background-color:red;
+				background: url(image/bg.jpg) red  repeat-x;
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>

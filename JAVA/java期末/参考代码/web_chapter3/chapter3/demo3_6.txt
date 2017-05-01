@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		这是百度logo
+		<img src="images/1.jpg" height="50" width="50" alt="我是logo"/>
+		
+	</body>
+</html>

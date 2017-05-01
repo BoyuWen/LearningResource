@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>河北正定中学-教研网</title>
+    <link href="css/dyw.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="mybody_jyw">
+    	<div id="top">
+        	<div class="menu">
+            	<ul>
+                	<li><a href="#">网站首页</a></li>
+                    <li><a href="#">学校概况</a></li>
+                    <li><a href="#">规章制度</a></li>
+                    <li><a href="#">德育网</a></li>
+                    <li>教研网</li>
+                    <li><a href="#">名师风采</a></li>
+                    <li><a href="#">高考专栏</a></li>
+                    <li><a href="#">图书馆</a></li>
+                    <li><a href="#">校友会</a></li>
+                    <li><a href="#">正中论坛</a></li>
+                    <li><a href="#">查询系统</a></li>
+                    <li><a href="#" class="specil">东校区</a></li>                    
+                </ul>
+            </div>           
+        </div>
+      <div id="dh">
+            	<h1><a href="#">正定中学首页</a> - <a href="#">正中教研网</a></h1>
+            	<div id="search">
+            <input name="search" type="text" class="search_text" /><input name="searchbut" type="button" class="search_but" value=" " />
+            </div>
+          </div>
+        <div id="left">
+        	<div id="leftmenu">
+            	<h1>正中教研网</h1>
+                <ul>
+                	<a href="#">教师风采</a>
+                    <a href="#">教学科研</a>
+                    <a href="#">教学常规</a>
+                    <a href="#" >教学交流</a>
+                    <a href="#">教辅天地</a>
+                    <a href="#">上级通知</a>
+                   
+              </ul>
+            </div>
+           	<div id="hot">
+            	<h1></h1>
+                <ul>
+                	<li><a href="#">我校举行五四表彰大会暨成人仪式</a></li> 
+                    <li><a href="#">河北正定中学4月份家长开放日公告</a> </li>
+                    <li><a href="#">教育处组织学生收看《2013年中小学… </a></li>
+                    <li><a href="#">高一年级励志踏青活动花絮 </a></li>
+                    <li><a href="#">我校组织高一年级励志踏青活动</a></li>
+                    <li><a href="#">我校举行五四表彰大会暨成人仪式</a></li> 
+                    <li><a href="#">河北正定中学4月份家长开放日公告</a></li> 
+                    <li><a href="#">教育处组织学生收看《2013年中小学…</a></li>
+                    <li><a href="#">河北正定中学4月份家长开放日公告</a></li> 
+                    <li><a href="#">教育处组织学生收看《2013年中小学…</a></li>
+                    <li><a href="#">河北正定中学4月份家长开放日公告</a></li> 
+                </ul>
+            </div>
+        </div>
+        
+      <div id="right">
+        
+       	  <div id="picnews">            
+           	 <div class="container" id="idTransformView">
+ 				 <ul class="slider" id="idSlider">
+   					 <li><img src="images/pic.jpg" width="260" height="190"/><p>adfasdfsadf</p></li>
+     				 <li><img src="images/pic.jpg" width="260" height="190"/><p>adfasdfsadf</p></li>
+   					 <li><img src="images/pic.jpg" width="260" height="190"/><p>adfasdfsadf</p></li>
+ 				 </ul>
+				  <ul class="num" id="idNum">
+  					  <li>1</li>
+  					  <li>2</li>
+  					  <li>3</li>
+			   </ul>
+			</div>
+           	 <div id="news">
+                   <h1><img src="images/news/jyw_news.gif" width="415" height="45" usemap="#Map" border="0" />
+                     <map name="Map" id="Map">
+                       <area shape="rect" coords="375,16,413,38" href="#" />
+                     </map>
+                   </h1>
+                   <ul >
+                    <li><a href="#" class="hot">【家长学校1306期】大学主要的专业介绍</a><span class="newsdate">2013-05-10</span></li>
+                   	<li><a href="#" >[图文]化学老师于文英举办观摩课活动 </a><span class="newsdate">2013-05-10</span></li>
+                    <li><a href="#">[图文]本部数学组组织公开课教学</a><span class="newsdate">2013-05-10</span></li>
+                    <li><a href="#">[图文]生物老师开展观摩课活动</a><span class="newsdate">2013-05-10</span></li>
+                    <li><a href="#">[图文]首届“五四杯”青年篮球对抗赛成功举办</a><span class="newsdate">2013-05-10</span></li>
+                    <li><a href="#">[组图]校工会组织教职工广场舞展示、交流活动</a><span class="newsdate">2013-05-10</span></li>
+                    <li><a href="#">[组图]高二理科部召开第二次月考表彰大会</a><span class="newsdate">2013-05-10</span></li>
+                    <li><a href="#">[组图]加强消防培训，确保学生安全</a><span class="newsdate">2013-05-10</span></li>
+                   </ul>                  
+            </div>
+        </div>
+           <div id="pic">
+           	<a href="#"><img src="images/news/jyw_tp1.gif" width="163" height="105" /></a>
+            <a href="#"><span style="margin:20px 17px"><img src="images/news/jyw_tp2.gif" width="163" height="105" /></span></a>
+            <a href="#"><img src="images/news/jyw_tp3.gif" width="163" height="105" /></a>
+             <a href="#" ><span style="margin:20px 0px 20px 17px"><img src="images/news/jyw_tp4.gif" width="163" height="105" /></span></a>
+           </div>
+        <div>
+           	<div class="second_news">
+            	<h1><img src="images/news/jyw_title1.gif" width="347" height="46" usemap="#Map2" border="0" />
+                  <map name="Map2" id="Map2">
+                    <area shape="rect" coords="293,16,344,35" href="#" />
+                  </map>
+            	</h1>
+                <ul>
+               	    <li><a href="#">我校举行五四表彰大会暨成人仪式</a><span class="newsdate"> (2013-5-7)</span></li> 
+                    <li><a href="#">河北正定中学4月份家长开放日公告</a> <span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">教育处组织学生收看《2013年中小学… </a><span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">高一年级励志踏青活动花絮 </a><span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">我校组织高一年级励志踏青活动</a><span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">我校举行五四表彰大会暨成人仪式</a><span class="newsdate">(2013-5-7)</span></li> 
+
+                </ul>
+            </div>
+            
+       	  <div class="second_news" style="margin-left:20px">
+            	<h1><img src="images/news/jyw_title2.gif" width="347" height="46" usemap="#Map2" border="0" />
+                  <map name="Map2" id="Map2">
+                    <area shape="rect" coords="293,16,344,35" href="#" />
+                  </map>
+            	</h1>
+                <ul>
+               	    <li><a href="#">我校举行五四表彰大会暨成人仪式</a><span class="newsdate"> (2013-5-7)</span></li> 
+                    <li><a href="#">河北正定中学4月份家长开放日公告</a> <span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">教育处组织学生收看《2013年中小学… </a><span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">高一年级励志踏青活动花絮 </a><span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">我校组织高一年级励志踏青活动</a><span class="newsdate">(2013-5-7)</span></li>
+                    <li><a href="#">我校举行五四表彰大会暨成人仪式</a><span class="newsdate">(2013-5-7)</span></li> 
+                </ul>
+            </div>
+            </div>
+        </div>
+        </div>
+      </div>
+	<div id="foot">	  
+ 		Copyright © 2008－2013 http://www.zhengzhong.net.cn All Rights Reserved   网站备案：冀ICP备06006650号
+	</div>
+</body>
+</html>

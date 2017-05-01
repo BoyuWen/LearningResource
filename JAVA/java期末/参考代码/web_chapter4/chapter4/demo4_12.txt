@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	    <title>表单-提交按钮和普通按钮</title> 
+  	</head>
+	<body>
+		<form> 
+     		<p>First name: <input type="text" name="fname" /></p>
+  			<p>Last name: <input type="text" name= "fname" /></p>
+  			<input type="submit" value="Submit" name="sub" />
+  			<input type="button" value="Hello world!" name="but">
+  			<input type="reset"  name="res" />
+   		</form> 
+	</body>
+</html>

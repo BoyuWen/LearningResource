@@ -1,0 +1,136 @@
+/*通用样式*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #000;
+}
+ul, li {
+    list-style: none;
+}
+a, a:link, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+
+/*#warp区域*/
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*#header区域*/
+#header {
+    width: 100%;
+    height: 400px;
+    background: #CC6600;
+}
+#header ul.nav {
+    overflow: hidden;
+}
+#header li {
+    float: left;
+    width: 14%;
+}
+#header li a:link {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: "微软雅黑";
+}
+#header li a:visited {
+    color: #fff;
+}
+#header li a:hover {
+    background: #CC3300;
+    text-decoration: underline;
+}
+#header img{
+    width: 100%;
+    height: 340px;
+}
+
+/*#content区域*/
+#content {
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#content #left {
+    width: 63%;
+    float: left;
+}
+#content #left_1 {
+    width: 49%;
+    float: left;
+    border: 1px solid #ccc;
+}
+#content #left_2 {
+    width: 49%;
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+}
+#content #left_3 {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+#content #right {
+    width: 34%;
+    border: 1px solid #ccc;
+    float: right;
+}
+#content .header_title {
+    height: 30px;
+    background: url(../images/con_title.jpg);
+    overflow: hidden;
+}
+#content .header_title .title {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+    color: #fff;
+}
+#content .header_title .more {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+#content ul li {
+    list-style-image: url(images/188.png);
+    list-style-position: inside;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+/*#footer区域*/
+#footer {
+    height: 60px;
+    background: #e8ebf0;
+    line-height: 60px;
+    text-align: center;
+}
+.fl{
+    margin-top:10px;
+    width:221px;
+    height:54px;
+    border-right:1px solid black;
+    float:left;
+    margin-left:100px;
+}
+.fr{
+    margin-top:10px;
+    margin-left:20px;
+    float:left;
+    width:463px;
+    height:43px;
+}

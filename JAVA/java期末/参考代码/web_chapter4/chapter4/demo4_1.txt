@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>创建表格</title> 
+    </head>
+	<body>
+		<table border="5px" bordercolor="black" cellspacing="10px" align="center">
+  			<tr bgcolor="yellow" > 
+    			<th>姓名</th>
+   			 	<th>年龄</th>
+   			 	<th>成绩</th>
+  			</tr>
+   			<tr align="right">
+    			<td bgcolor="orange">李四白</td>
+    			<td>20</td>
+    			<td>100</td>
+  			</tr>
+  			<tr>
+    			<td>张三丰</td>
+    			<td align="center">19</td>
+    			<td>80</td>
+  			</tr>
+  			<tr>
+    			<td>王小麻</td>
+    			<td>18</td>
+    			<td>89</td>
+  			</tr>
+		</table>
+	</body>
+</html>

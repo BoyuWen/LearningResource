@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>软件</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div id="wrap">
+        <!-- 页面顶部区域 -->
+        <div id="header">
+            <ul class="nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="news.html">学院概况</a></li>
+                <li><a href="course.html">新闻动态</a></li>
+                <li><a href="dianzi.html">教育教学</a></li>
+                <li><a href="virtual.html">人才培养</a></li>
+                <li><a href="dianzi.html">学生管理</a></li>
+                <li><a href="virtual.html">师生创业</a></li>
+            </ul>
+            <div>
+                <img src="images/banner.jpg" alt="banner"/>
+            </div>
+        </div>
+        <!-- 页面中部区域 -->
+        <div id="content">
+            <div id="left">
+                <div id="left_1">
+                    <div class="header_title">
+                        <span class="title">软院联盟</span>
+                        <span class="more">更多&gt;&gt;</span>
+                    </div>
+                    <ul>
+                        <li><a href="news1.html">软件学院举办2015年度学院之星颁奖盛典</a></li>
+                        <li><a href="news1.html">软件学院举办2015年度学院之星颁奖盛典</a></li>
+                        <li><a href="news1.html">软件学院有序开展本科教学评估工作</a>
+                        </li>
+                        <li><a href="news1.html"> 软件学院有序开展本科教学评估工作</a>
+                        </li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    </ul>
+                </div>
+                <div id="left_2">
+                    <div class="header_title">
+                        <span class="title">软院联盟</span>
+                        <span class="more">更多&gt;&gt;</span>
+                    </div>
+                    <ul>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <div id="left_3">
+                    <div class="header_title">
+                        <span class="title">软院联盟</span>
+                        <span class="more">更多&gt;&gt;</span>
+                    </div>
+                    <ul>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                        <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="right">
+                <div class="header_title">
+                    <span class="title">软院联盟</span>
+                    <span class="more">更多&gt;&gt;</span>
+                </div>
+                <ul>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                    <li><a href="news1.html">河北师范大学软件学院</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 页面询问区域 -->
+        <div id="footer">
+            <div class="fl"><img src="images/footer_logo.png" width="221px" height="44px"/></div>
+            <div class="fr"><img src="images/footer_txt.png" width="463px" height="43px"/></div>
+        </div>
+    </div>
+</body>
+</html>

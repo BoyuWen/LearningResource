@@ -1,0 +1,21 @@
+110825 10:05:13 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+110825 10:38:03 [Note] bin\mysqld-nt.exe: Normal shutdown
+
+110825 10:38:03 [Note] bin\mysqld-nt.exe: Shutdown complete
+
+Error in my_thread_global_end(): 1 threads didn't exit
+Can't start server: Bind on TCP/IP port: Invalid argument
+111220 12:45:14 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+111220 12:45:14 [ERROR] Aborting
+
+111220 12:45:14 [Note] bin\mysqld-nt.exe: Shutdown complete
+
+120410  9:55:42 [Note] bin\mysqld-nt.exe: ready for connections.
+Version: '5.0.41-community-nt-log'  socket: ''  port: 3306  MySQL Community Edition (GPL)
+Can't start server: Bind on TCP/IP port: Invalid argument
+120410  9:55:52 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+120410  9:55:52 [ERROR] Aborting
+
+120410  9:55:52 [Note] bin\mysqld-nt.exe: Shutdown complete
+

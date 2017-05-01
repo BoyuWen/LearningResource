@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo10-3</title>
+		<style>
+		p{
+		text-indent: 2em;
+		}
+		.tip {
+		color:red;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<p>
+			<span class="tip">英国王室</span>（英文常简称Er)是现存世界上的王室之一，而每代君主的<span class="tip">加冕仪式</span>都严格奉行完全一样的传统（有时会不一样），这使得英国王室的加冕典礼成为现存的、依然举行的最古老的仪式。
+		</p>
+		<p>
+			王室血统在1066年<span class="tip">威廉一世</span>继位短暂中断，威廉一世去世后通过母系拥有盎格鲁-撒克逊王室血统的<span class="tip">威廉二世</span>继位，王室血统再次回到盎格鲁-撒克逊血统上，王室的血统也再没有中断过，由于英国允许与王室有血缘关系的女性继承王位，这造成了英国王室血缘相同而王朝名称不同的现象。
+		</p>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+public class H5 {
+	public static class Calculator {
+		int computeN(int totalNum) {
+			int s = 0;
+			int x = 1;
+			while (s < totalNum) {
+				s += x * (x + 1);
+				x++;
+			}
+			return x - 2;
+		}
+	}
+
+	public static void main(String[] args) {
+		Calculator cal = new Calculator();
+		int n = cal.computeN(1000);
+		System.out.println(n);
+	}
+}

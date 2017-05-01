@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo10_1</title>
+		<style>
+		p, a, ul{
+		
+		height:50px;
+		border: 2px solid black;
+		margin:30px;
+		padding:20px;
+		}		
+		</style>
+	</head>
+	
+	<body>
+		<p>some contents here....</p>
+		<p>some contents here....</p>
+		some other contests...
+		<ul>
+			<li>list1</li>
+			<li>list2</li>
+			<li>list3</li>
+		</ul>
+		<ul>
+			<li>list1</li>
+			<li>list2</li>
+			<li>list3</li>
+		</ul>
+		some other contests...	
+		<a href="#">a link</a>
+		<a href="#">a link</a>
+	</body>
+</html>

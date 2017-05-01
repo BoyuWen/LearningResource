@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>伪类设置</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        input:focus{
+            background-color: yellow;
+        } 
+        li:first-child{
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="form_action.asp" method="get">
+        姓名<input type="text" name="firstname" />
+    </form>
+    <ul>
+        <li>榴莲</li>
+        <li>葡萄</li>
+        <li>桃子</li>
+    </ul>
+</body>
+</html>

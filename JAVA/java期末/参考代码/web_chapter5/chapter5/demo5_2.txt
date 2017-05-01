@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>图像热区</title> 
+    </head>
+	<body>
+		<img src="images/map.png" usemap="#Map4" width="258" height="260" border="0"/>
+        <map name="Map4" id="Map4">
+            <area shape="rect" coords="9,6,116,113"         href="http://sms.zhengzhong.cn"/>
+            <area shape="rect" coords="140,9,243,114"       href="http://www.zhengzhong.net.cn/index.php?m=content&c=index&a=lists&catid=72"/>
+            <area shape="rect" coords="12,129,119,239" 	    href="http://www.hebxxt.com/"/>
+            <area shape="rect" coords="144,133,250,240"     href="http://www.zhengzhong.net.cn/index.php?m=content&c=index&a=lists&catid=71"/>
+        </map>
+	</body>
+</html>

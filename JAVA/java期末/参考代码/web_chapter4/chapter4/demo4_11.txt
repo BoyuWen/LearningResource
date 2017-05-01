@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	    <title>表单-多行文本框</title> 
+  	</head>
+	<body>
+		<form> 
+   			<textarea name="cat" rows="10" cols="30">大家都非常喜欢WEB课
+  			</textarea>
+   		</form> 
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>内联框架</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<ul>
+		<li><a href="demo5_1.html" target="myIframe">例子一</a></li>
+		<li><a href="demo5_2.html" target="myIframe">例子二</a></li>
+		<li><a href="demo5_3.html" target="myIframe">例子三</a></li>
+	</ul>
+	<iframe src="http://www.baidu.com" name="myIframe" width="700px" height="500px"></iframe>
+</body>
+</html>

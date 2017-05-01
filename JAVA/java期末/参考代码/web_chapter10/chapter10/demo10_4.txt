@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo10-4</title>
+		<style>
+		img{
+			width:180px;
+			display: block;
+		}
+		.inline-div{
+			display: inline;
+		}
+		p{
+			display:none;
+		}
+
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<img alt="logo" src="logo.jpg" />
+			<img alt="logo" src="logo.jpg" />
+		</div>
+		<div class="inline-div">
+			“外面明明是春天，但我的心却是寒冬？”樱木花道这句经典台词简直就是中国制造业如今真实的写照。
+		</div>
+		<span>回首这十年，制造业等实体经济在中国非常不受待见。</span>
+		<div>
+			<p>礼品包装盒作为商品包装中的一类，除了它必须达到包装的基本功能，即完成保护商品、传递商品信息、推销商品以外，还应着传递人与人之间情感交流信息，提升礼品的定位，它是体系人类情感沟通的媒介与共架友爱的桥梁。</p>
+		</div>
+		
+	</body>
+</html>

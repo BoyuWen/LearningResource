@@ -1,0 +1,25 @@
+统计职务为“经理”的员工数
+
+select count(*)
+from employees,jobs
+where jobs.name='经理' and employees.`job_id`=jobs.id
+
+列出所有基本工资大于1200的员工信息
+
+select *
+from employees,pay_level
+where `pay_level`.`base_pay`>1200 and `pay_level`.id= `employees`.`level_id`
+
+将所有工资小于1200的员工工资加100
+
+select  `employees`.*,`pay_level`.`base_pay`+100 as base_pay
+            from `employees`,`pay_level`
+            where `pay_level`.`base_pay`<1200 
+                   and `pay_level`.id=`employees`.`level_id`
+
+统计职务为“技术部”且工资大于2000的员工数
+
+SELECT count(*)
+from `employees`,`jobs`,pay_level
+where jobs.`name`='技术部' and `pay_level`.`base_pay`>2000
+      and `employees`.`level_id`=`pay_level`.id and `employees`.`job_id`=jobs.id
