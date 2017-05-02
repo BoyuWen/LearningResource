@@ -1,0 +1,63 @@
+/*第一次课
+create database stu //创建数据库
+
+use stu //使用数据库
+
+drop database stu //
+
+create table student(sno varchar(10) primary key,
+                     sname varchar(50));
+
+
+create schema dingleilei08011
+   create table student1(sno varchar(10) primary key,
+                     sname varchar(50));
+            
+drop schema dingleilei
+
+drop table student
+drop schema dingleilei0801 
+
+create table biaoming(sno char(10) primary key,
+                      sname varchar(50) unique);
+*/
+--每次打开数据库，先看当前使用的数据库
+--外键需要和被参照的主键数据类型保持一致。
+
+/*create table Student(Sno char(8)primary key, 
+                     Sname varchar(50) unique,
+                     Ssex char(5),
+                     Sage smallint,
+                     Sdept varchar(50));
+     create table Student(Sno char(8), 
+                     Sname varchar(50) unique,
+                     Ssex char(5),
+                     Sage smallint,
+                     Sdept varchar(50),
+                     primary key(Sno));
+      */
+create table Course(Cno char(4) primary key,
+                    Cname varchar(20),
+                    Cpno char(4),
+                    Ccredit smallint,
+                    foreign key (Cpno) references Course(Cno));
+                    
+create table SC(Sno char(8),
+                Cno char(4),
+                Grade smallint,
+                primary key(Sno,Cno),
+                foreign key (Sno) references Student(Sno),
+                foreign key (Cno) references Course(Cno));
+create table student1(Sno char(8),
+                      Cno char(4),
+                      Sname varchar(20),
+                      Sage smallint);
+create table student2(Sno char(8) not null,
+                      Cno char(4) not null,
+                      Sname varchar(20),
+                      Sage smallint);
+alter table student1 add not null(Sno,Cno);
+ alter table student2 add constraint s2_unique unique(Sname);
+ alter table student2 drop constraint s2_unique;
+ alter table student1 add entrance varchar(50);
+ alter table student1 drop column entrance;

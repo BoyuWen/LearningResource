@@ -1,0 +1,65 @@
+create database STU
+use STU
+create table student(
+sno char(9)primary key,
+sname char(10)unique,
+ssex char(2),
+sage smallint,
+sdept varchar(20)
+);
+create table course
+(
+cno char(4)primary key,
+cname char(20) not null,
+cpno char(4),
+ccredit smallint,
+foreign key(cpno)references course(cno)--外码
+);
+create table sc
+(
+sno char(9)not null,
+cno char(4)not null,
+grade smallint,
+primary key(sno,cno),
+foreign key(sno)references student(sno),
+foreign key(cno)references course(cno)
+);
+INSERT INTO student(sno,sname,ssex,sage,sdept) VALUES('2014011','zhang','m',18,'information')
+alter table student
+--add s_entrance date
+--alter table student
+--drop column s_entrance
+--alter table student
+--drop column s_entramce
+--alter table student
+--alter column sage int
+alter table course
+add not null(ccredit)
+--alter table s_t.sc
+--add primary key(sno,cno)
+--alter table s_t.sc
+--add foreign key(sno)references student(sno)
+--create unique index stusno on student(sno asc)
+
+
+
+--create clustered index stusno on student(sno asc)
+--drop index student.stusno
+exec sp_rename 'student.stusno','stusno1'
+
+--20160318
+--select sno,sname,sdept from student
+
+--select * from student--查询所有字段
+--select sno 学号,sname 姓名,2016-sage 出生年份,'2014' from student
+
+select COUNT(ssex) 总人数  from student--NULL是不存在的数据
+select COUNT(sno) 总人数  from student
+select sno,sname,lower(sdept) from student--lower是变小写的函数
+select distinct sno, grade from sc--distinct 将重复的行去掉，
+--作用于所有的属性列
+select sno,sname,sdept from student where sage between 19 and 23--查询结果包括19和23
+select * from student where sage between 19 and 23--查询结果包括19和23
+select sno,sname,sdept from student where sdept in ('CS','IS')
+
+
